@@ -90,7 +90,7 @@ def load_deepseek(model_type: str = "7b",
                   dtype: torch.dtype = torch.float16):
     try:
         model_map = {
-            "7b": "deepseek-ai/deepseek-llm-7b",
+            "7b": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
             "8b": "deepseek-ai/deepseek-llm-8b"
         }
 
