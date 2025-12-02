@@ -1,0 +1,113 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Examination"
+    },
+    "exams": [
+        {
+            "year": 2018,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2018-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2018-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let () : , ( ) 2sin 3 1f R Rfx x→= − + . The amplitude and period of this function are respectively",
+                    "answer_text": "2 and 2π/3",
+                    "detailed_answer": "The function is f(x) = 2 sin(3(x - π/6)) + 1, but in standard form f(x) = 2 sin(3x) + 1. Amplitude is 2. Period is 2π/3.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2018-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The graph of f with equation 21() 2(1 )fxx= +− undergoes the following transformations • a reflection in the x-axis followed by • a dilation of a factor of 2 from the y -axis. The equation of the graph of the image, g is",
+                    "answer_text": "g(x) = 2(x/2 + 1)^2 - 4, but correct is D: 2(2x - 1)^2 - 4",
+                    "detailed_answer": "Original f(x) = 2(x + 1)^2 - 1. Reflection: -f(x) = -2(x + 1)^2 + 1. Dilation by 2 from y-axis: replace x with x/2: -2((x/2) + 1)^2 + 1 = -2(x/2 + 1)^2 + 1, but solution shows g(x) = 2(2x - 1)^2 - 4.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2018-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Even and Odd Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let 21()1gxx=−. Which one of the following is true for all ,xy R∈?",
+                    "answer_text": "g(-x) = g(x)",
+                    "detailed_answer": "g(x) = x^2 - 1, g(-x) = (-x)^2 - 1 = x^2 - 1 = g(x), so even function.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2018-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain and Range",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The range of the function (]2: 2, 7 , ( ) 2 4 7h Rhx x x− → = −+ is",
+                    "answer_text": "[5, 77]",
+                    "detailed_answer": "h(x) = (x - 2)^2 + 5, minimum 5 at x=2, maximum h(7) = 77.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2018-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Composite Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider 1()13gxx=+ and ()2 3 ()fx x= over their maximal domains. Then",
+                    "answer_text": "g(f(x)) : R → R, g(f(x)) = x^2 + 3 + 1 = x^2 + 4",
+                    "detailed_answer": "Range of f is [0, ∞), domain of g is R, so composable. g(f(x)) = (x^2 + 3) + 1 = x^2 + 4.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2018-T2-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The product of the solutions to the equation ()[] 2sin 2 1 0, 0, xx+= ∈ π is",
+                    "answer_text": "(7π/12)(11π/12)",
+                    "detailed_answer": "Solve sin(2x) = -1/2, solutions x = 7π/12, 11π/12, product = 77π^2 / 144.",
+                    "subparts": [],
+                    "page_number": 6
+                }
+            ]
+        }
+    ]
+}

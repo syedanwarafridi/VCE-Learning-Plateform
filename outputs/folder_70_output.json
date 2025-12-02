@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2018,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 1",
+            "pdf_url": "2018-mav-exam-1.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2018-T1-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Differentiation",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "a. Find dy dx when 2 log (2 )e yx x= .",
+                    "answer_text": "2 log (2 )edyxdx= +",
+                    "detailed_answer": "2 log (2 )e yx x= . ( )12 log (2 ) 2edyxxdx x= ×+ × 2 2log (2 )edyxdx= +",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2018-T1-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Quadratic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of the function24( ) 18f x x ax= − where aR+∈ has a stationary point at 3 5x=− . a. Show that the value of a is 5.",
+                    "answer_text": "a = 5",
+                    "detailed_answer": "24( ) 18f x x ax= − '( ) 36 4f x x ax= − 3236 4 4 9 0x ax x ax−=−= Gives 30,xx a= =± Given stationary point at 3 5x=− where aR+∈ 5a= as required",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2018-T1-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Integration",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let 1: , , where ( ) (2 1)2g R gx x= −. a. Show that the equation of the tangent to the curve at x = 1 is yx=.",
+                    "answer_text": "yx=",
+                    "detailed_answer": "1: , , () 2 12g Rgx x= − ()1 2 () 2 1gx x= − ()1 2 (1) 2 1 1g= −= 1(1) 211() 2 2 12 21gx x x−= × −= − 1(1) 1 21m= = = − 1 1 ( 1)yx−=× − yx=",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2018-T1-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Confidence Intervals",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "A company is investigating the efficiency of one of its machines which packages muesli. A random sample of 400 packets was taken and the 95% confidence interval for the proportion of underweight muesli packets was found to be (0.024, 0.132). a. Find the sample proportion from which this interval was obtained.",
+                    "answer_text": "0.078",
+                    "detailed_answer": "0.132 0.024 0.156ˆ 0.07822p+= = =",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2018-T1-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "a. Find the general solution to () 3 sin(2 ) cos 2 xx= .",
+                    "answer_text": "2,6x nnZππ= +∈",
+                    "detailed_answer": "() 3 sin(2 ) cos 2 xx= ()3 sin(2 )1cos 2x x= 1tan(2 ) 3x= 2,6x nnZππ= +∈ ,12 2nx nZππ= +∈",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2018-T1-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Logarithmic Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Solve 22 2log ( 2) log ( ) 0 xx−+ = for x .",
+                    "answer_text": "35 2x+=",
+                    "detailed_answer": "22 2log ( 2) log ( ) 0 xx−+ = 2 22log ( 2) log ( ) 0 xx−+ = ()2 2log ( 2) 0 xx−= 20( 2) 2 1xx−= = 324 4 10xxx− + −= 2( 1)( 3 1) 0xxx− −+= 1x≠, 35 2x−≠ as x>2 35 2x+= only",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2018-T1-Q7",
+                    "question_number": 7,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Integration",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The height of water in a dam is modelled by the function h with rule ( ) 20sin 10 2012thtπ= − ++, where h is the height in metres at time t hours after 9 am. Find the average value of the height of water in a dam, from 9 am to 9 pm on a certain day, giving your answer in the form cos( )a bc+, where a, b and c are real constants.",
+                    "answer_text": "40cos 10 20π−+",
+                    "detailed_answer": "Average value 12 0120sin 10 2012 0 12tdtπ= − ++ ∫ 12 0 12 020sin 10 112 12 5sin 10 13 12tdt tdtπ π= − ++ = − ++ ∫ ∫ 12 05 12cos 103 12ttπ π= ++ () ()5 12 12cos 10 12 cos 0 10 03πππ= ++− ++ Average height () ()5 12 12cos 10 12 cos 103πππ= ++− cos( ) cos( ) xxπ+= − So the expression simplifies to ()()20 20cos 10 cos 10 20ππ= −−+ ()40cos 10 20π= −+",
+                    "subparts": [],
+                    "page_number": 9
+                },
+                {
+                    "question_id": "MM-2018-T1-Q8",
+                    "question_number": 8,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Discrete Random Variables",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A random variable X has the following probability distribution, where a and b are real constants. x 0 1 2 3 () PrXx= 0.1 a b 0.1 a. i. Find b in terms of a.",
+                    "answer_text": "b = 0.8 - a",
+                    "detailed_answer": "0.1 0.1 1 ab+++ = 0.8, 0.8 ab b a+= = −",
+                    "subparts": [],
+                    "page_number": 10
+                },
+                {
+                    "question_id": "MM-2018-T1-Q9",
+                    "question_number": 9,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let 1() 2xfx e−= . a. Find the rule and state the range for the inverse function, 1f−.",
+                    "answer_text": "1( ) log 12exfx− = −+ Range is R",
+                    "detailed_answer": "Let 1() 2xy fx e−= = Inverse swap x and y . 12yxe−= 1 2y xe−= log 12exy= −+ 1( ) log 12exfx− = −+ Range is R",
+                    "subparts": [],
+                    "page_number": 11
+                }
+            ]
+        }
+    ]
+}

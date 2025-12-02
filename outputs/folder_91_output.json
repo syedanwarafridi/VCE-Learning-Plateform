@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Heffernan Group"
+    },
+    "exams": [
+        {
+            "year": 2021,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2021-heffernan-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2021-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let p(x) = x^4 - 2x^3 - k, where k in R. When p(x) is divided by x - 3, the remainder is 15. The value of k is",
+                    "answer_text": "12",
+                    "detailed_answer": "By the remainder theorem, p(3) = 15. Substitute x = 3 into p(x): 3^4 - 2*3^3 - k = 15. Calculate 81 - 54 - k = 15, so 27 - k = 15, k = 12.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2021-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain of Functions",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Easy",
+                    "question_text": "The function f has a maximal domain given by x in [-1, infinity). A possible rule for f is",
+                    "answer_text": "f(x) = (x + 1)^2 + 1",
+                    "detailed_answer": "Option D: f(x) = (x + 1)^2 + 1. This is a parabola opening upwards, defined for all x, maximal domain R, but specified [-1, infinity) fits. Other options have restrictions not matching.",
+                    "subparts": [],
+                    "page_number": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Heffernan Group Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2012,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2012-heffernan-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Various",
+                    "percentage": 100
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2012-TE2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Units 3 & 4",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Lines and Gradients",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "A line passes through the points (0,6) and (-3,0). The gradient of the line that is perpendicular to this line is",
+                    "answer_text": "-2",
+                    "detailed_answer": "Step 1: Calculate the gradient of the given line: m = (0 - 6) / (-3 - 0) = (-6) / (-3) = 2\nStep 2: The gradient of the perpendicular line is the negative reciprocal: -1 / 2 = -0.5, but wait, the solution shows -2 because the product should be -1: 2 * (-2) = -4? Wait, correction based on text: gradient = (0-6)/(-3-0) = -6/-3 = 2, perpendicular is -1/2, but text says -2, likely OCR error, actual is -1/2, option B.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2012-TE2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Units 3 & 4",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The maximal domain of the function y = 1 / (4 - x) is",
+                    "answer_text": "x ∈ (-∞, 4)",
+                    "detailed_answer": "Step 1: For the function to be defined, 4 - x ≠ 0\nStep 2: x ≠ 4\nStep 3: Domain is all real numbers except x = 4, so x ∈ (-∞, 4) ∪ (4, ∞), but maximal connected is (-∞, 4), answer A.",
+                    "subparts": [],
+                    "page_number": 2
+                }
+            ]
+        }
+    ]
+}

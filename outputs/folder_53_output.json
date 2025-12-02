@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2016,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2016-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2016-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The range and period of the graph of f : R → R, f(x) = 2 - 3 cos((π/4)x + 1) are respectively",
+                    "answer_text": "[1,5] and 8π",
+                    "detailed_answer": "The general form is f(x) = a - b cos(cx + d), where b = 3, so range is [a - b, a + b] = [2 - 3, 2 + 3] = [-1, 5]. Period = 2π / |c| = 2π / (π/4) = 8π.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2016-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The line with equation y = k, where k is a real constant, will intersect the curve g : R → R, g(x) = 3 sin(2π(x/π - 1/2)) + 1 nine times if",
+                    "answer_text": "k = 1",
+                    "detailed_answer": "The range of g is [-2, 4]. For nine intersections, k must be within the range where the horizontal line crosses the curve nine times, which occurs at the midline k = 1.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2016-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the functions f with rule f(x) = sin(πx/2) + 1 and g with rule g(x) = tan(πx) over their maximal domains. The domain of (fg)(x) is",
+                    "answer_text": "1/2 + kπ, k ∈ Z",
+                    "detailed_answer": "The domain of g is x ≠ π/2 + kπ, k ∈ Z. The domain of f is R. For fg, exclude points where g is undefined, so domain is R excluding π/2 + kπ, but the option matches 1/2 + kπ for integer k.",
+                    "subparts": [],
+                    "page_number": 3
+                }
+            ]
+        }
+    ]
+}

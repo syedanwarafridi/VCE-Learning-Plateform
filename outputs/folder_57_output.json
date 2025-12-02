@@ -1,0 +1,542 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "The Heffernan Group"
+    },
+    "exams": [
+        {
+            "year": 2017,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "https://www.example.com/2017-heffernan-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2017-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let f: R -> R, f(x) = -2 sin(π x / 3) + 1. The period and range of this function are given respectively by",
+                    "answer_text": "A",
+                    "detailed_answer": "The period of sin(π x / 3) is 6. The range of -2 sin(π x / 3) + 1 is [-3, 1].",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2017-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let f: D -> R, f(x) = log_e (x - 1). The domain D could be",
+                    "answer_text": "D",
+                    "detailed_answer": "For f(x) to be defined, x - 1 > 0, so x > 1. The maximal domain is (1, ∞), but (1, 2) is a possible restricted domain.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2017-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Part of the graph of f is shown below. The rule of f could be",
+                    "answer_text": "E",
+                    "detailed_answer": "The period is π/2, so n = 2 for tan(n x). The graph is reflected in the x-axis, so f(x) = -tan(2x).",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2017-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Rates of Change",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The average rate of change of the function g with rule g(x) = x^2 / 3(x - 1) between x = 0 and x = 8 is",
+                    "answer_text": "C",
+                    "detailed_answer": "Average rate of change = [g(8) - g(0)] / (8 - 0) = 7/2.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2017-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Medium",
+                    "question_text": "Part of the graph of the polynomial function f is shown below. The complete set of values for which the function f is strictly decreasing is",
+                    "answer_text": "B",
+                    "detailed_answer": "f is strictly decreasing on [1, 3].",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2017-T2-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Which one of the following is the inverse function of h: (2, ∞) -> R, h(x) = 3^(x - 2) - 1?",
+                    "answer_text": "E",
+                    "detailed_answer": "The inverse is h^{-1}(x) = log_3 (x + 1) + 2, domain (-1, ∞).",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2017-T2-Q7",
+                    "question_number": 7,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Discrete Random Variables",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The discrete random variable X has a probability distribution shown in the table below. The standard deviation of X is closest to",
+                    "answer_text": "B",
+                    "detailed_answer": "Var(X) = 7.24, sd(X) ≈ 2.69.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2017-T2-Q8",
+                    "question_number": 8,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of y = x^3 - a x where a is a positive constant, has stationary points where x = -2 and x = 2. The value of a is",
+                    "answer_text": "E",
+                    "detailed_answer": "dy/dx = 3x^2 - a = 0 ⇒ a = 12.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2017-T2-Q9",
+                    "question_number": 9,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Area Under Curves",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of f(x) = 5 - x^2, [0, 2] : f -> R is shown below. The area of the shaded region is given by",
+                    "answer_text": "B",
+                    "detailed_answer": "Area = ∫_0^2 (4 - x) dx = 2.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2017-T2-Q10",
+                    "question_number": 10,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Functional Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The equation f(x) + f((1/2)x + 1) = 3 f(x) is true for all real values of x. The rule for f could be",
+                    "answer_text": "E",
+                    "detailed_answer": "f(x) = x + 1 satisfies the equation.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2017-T2-Q11",
+                    "question_number": 11,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of the function f with rule f(x) = log_e (x) - 1 is reflected in the y-axis and then dilated from the x-axis by a factor of 1/3 to become the graph of g. The rule for the graph of g is",
+                    "answer_text": "E",
+                    "detailed_answer": "g(x) = (1/3) log_e (-x) - 1/3.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2017-T2-Q12",
+                    "question_number": 12,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Linear Systems",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The simultaneous linear equations 2x - a y = a + 5 and a x - 8 y = -2 have infinitely many solutions for",
+                    "answer_text": "A",
+                    "detailed_answer": "Infinitely many solutions when a = -4.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2017-T2-Q13",
+                    "question_number": 13,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Optimisation",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A right-angled triangle is formed by connecting the origin, the point (a, b), where 0 < a < 2, and the point (a, 0). The point (a, b) lies on the parabola y = (x - 2)^2. The maximum area of this triangle is",
+                    "answer_text": "D",
+                    "detailed_answer": "Maximum area = 16/27.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2017-T2-Q14",
+                    "question_number": 14,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 3: Calculus",
+                    "subtopic": "Derivatives",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "If h'(x) = 1 / (2 log_e (2 x)) then h(2) is equal to",
+                    "answer_text": "A",
+                    "detailed_answer": "h'(x) = 1 / (2 log_e (2 x)), h(2) = 0.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2017-T2-Q15",
+                    "question_number": 15,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Sample Proportions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "A country has 40% of its population vaccinated against influenza. For samples of 600 citizens of this country, P-hat is the random variable of the distribution of sample proportions of citizens who are vaccinated against influenza. The mean and standard deviation of P-hat are given respectively by",
+                    "answer_text": "B",
+                    "detailed_answer": "E(P-hat) = 0.4, sd(P-hat) = 0.02.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2017-T2-Q16",
+                    "question_number": 16,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Binomial Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A silo contains an estimated ten billion grain seeds. It is understood that 5% of these would not germinate were they to be sown. A sample of 200 seeds is taken from the silo. For samples of 200 seeds, P-hat is the random variable of the distribution of sample proportions of seeds that would not germinate. Pr(P-hat ≤ 7/200), when calculated not using a normal distribution, is closest to",
+                    "answer_text": "D",
+                    "detailed_answer": "Pr(X ≤ 7) ≈ 0.2133 where X ~ Bin(200, 0.05).",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2017-T2-Q17",
+                    "question_number": 17,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Continuous Random Variables",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The continuous random variable X has a probability density function given by f(x) = e^x for 0 ≤ x ≤ 1, 1/e for 1 ≤ x ≤ a, 0 elsewhere. The value of a is",
+                    "answer_text": "D",
+                    "detailed_answer": "∫_0^1 e^x dx + ∫_1^a (1/e) dx = 1 ⇒ a = (e + 3)/(2e).",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2017-T2-Q18",
+                    "question_number": 18,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Conditional Probability",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Last Tuesday before midday, a hotel reception checked in 20 guests whose rooms were ready and 35 guests whose rooms weren't ready. For those guests whose rooms were ready, 5 were from overseas and for those guests whose rooms weren't ready, 20 were from overseas. An overseas guest who checked in to the hotel last Tuesday before midday is randomly selected. The probability that this guest had their room ready is",
+                    "answer_text": "C",
+                    "detailed_answer": "Pr(ready | OS) = 5/25 = 1/5.",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2017-T2-Q19",
+                    "question_number": 19,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Normal Approximation",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "Eight per cent of items purchased at the retail outlets of a sports clothing company are returned for exchange. The company samples sales of 400 items purchased across its retail outlets. Using a normal approximation, the probability that between five and ten percent of these sampled items are returned for exchange is closest to",
+                    "answer_text": "C",
+                    "detailed_answer": "Pr(0.05 < X/400 < 0.10) ≈ 0.9163 where X ~ Bin(400, 0.08).",
+                    "subparts": [],
+                    "page_number": 9
+                },
+                {
+                    "question_id": "MM-2017-T2-Q20",
+                    "question_number": 20,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "The transformation T: R^2 -> R^2 with rule [y x] = T([x y]) = [-1 0; 2 1] [x; y] + [0; 3] maps the graph of y = f(x) onto the graph of y = g(x). Given that ∫_{-1}^4 f(x) dx = -3 then ∫_{-1}^4 g(x) dx is equal to",
+                    "answer_text": "A",
+                    "detailed_answer": "∫_{-1}^4 g(x) dx = -3.",
+                    "subparts": [],
+                    "page_number": 9
+                },
+                {
+                    "question_id": "MM-2017-T2-QB1",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f: [0, π/2] -> R, f(x) = 2 cos^2 (x/2) - 1. The graph of f is shown below. Parallel tangents are drawn to f at points A and B. Point A lies on the x-axis.",
+                    "answer_text": "",
+                    "detailed_answer": "a. Range of f is [-1, 1].\nb. Coordinates of A: (π/6, 0).\nc. a = 2, b = 3.\nd. Coordinates of B: (π/3, -2).\ne. r = π/6 - 3√3.\nf. General solution: x = kπ + π/12 or x = kπ + 5π/12, k ∈ Z.\ng. m = 2, n = 2.",
+                    "subparts": [
+                        {
+                            "subpart_id": "a",
+                            "question_text": "Find the range of f.",
+                            "answer_text": "[-1, 1]"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "Find the coordinates of point A.",
+                            "answer_text": "(π/6, 0)"
+                        },
+                        {
+                            "subpart_id": "c",
+                            "question_text": "The gradient of the two tangents is -a b. Find the values of a and b.",
+                            "answer_text": "a = 2, b = 3"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Hence find the coordinates of point B.",
+                            "answer_text": "(π/3, -2)"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "The tangent to f at point A is translated r units in the negative direction of the x-axis to coincide with the tangent at point B. Find the exact value of r.",
+                            "answer_text": "π/6 - 3√3"
+                        },
+                        {
+                            "subpart_id": "f",
+                            "question_text": "Let g: R -> R, g(x) = f(x). Find the general solution for x of the equation g(x) = 3^{-1}.",
+                            "answer_text": "x = kπ + π/12 or x = kπ + 5π/12, k ∈ Z"
+                        },
+                        {
+                            "subpart_id": "g",
+                            "question_text": "Let h: [π/2 - 2, π/2 + 2] -> R, h(x) = 2 sin(x) + 1. The graph of h can be obtained by applying the transformation T to the graph of f where T: R^2 -> R^2, T([x y]) = [m 0; n -π] [x; y] + [2π; 0], m, n ∈ R. Find the value of m and the value of n.",
+                            "answer_text": "m = 2, n = 2"
+                        }
+                    ],
+                    "page_number": 10
+                },
+                {
+                    "question_id": "MM-2017-T2-QB2",
+                    "question_number": 2,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Composite Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the functions f: R -> R, f(x) = (3x - 6)/(2x + 2) and g: R -> R, g(x) = 4x^2 - 3(x - 2).",
+                    "answer_text": "",
+                    "detailed_answer": "a.i. f(g(x)) = 1/8 (x + 2)^2 (x - 1) (x - 4).\nii. Domain of g is R, range of g is R, so f(g(x)) exists.\nb. a = -2, b = 11/8, c = 17.\nc.i. Tangent at A: y = - (1/2) x + 2 = g(x).\nii. Length of BC = √(257/2).\nd.i. Coordinates of X: (-0.8, 0.2).\nii. Area of triangle BCD = 10.5.",
+                    "subparts": [
+                        {
+                            "subpart_id": "a.i",
+                            "question_text": "Show that f(g(x)) = 1/8 (x + 2)^2 (x - 1) (x - 4).",
+                            "answer_text": "Shown"
+                        },
+                        {
+                            "subpart_id": "a.ii",
+                            "question_text": "Explain why f(g(x)) exists.",
+                            "answer_text": "Range of g is R, domain of f is R"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "Let h(x) = f(g(x)), for x ∈ R. The stationary points of h occur at the points where x = a, b, c with a < b < c. Find the values of a, b and c.",
+                            "answer_text": "a = -2, b = 11/8, c = 17"
+                        },
+                        {
+                            "subpart_id": "c.i",
+                            "question_text": "Show that the equation of the tangent to h at the point A is given by y = g(x).",
+                            "answer_text": "y = - (1/2) x + 2 = g(x)"
+                        },
+                        {
+                            "subpart_id": "c.ii",
+                            "question_text": "Find the length of BC.",
+                            "answer_text": "√(257/2)"
+                        },
+                        {
+                            "subpart_id": "d.i",
+                            "question_text": "Find the coordinates of point X.",
+                            "answer_text": "(-0.8, 0.2)"
+                        },
+                        {
+                            "subpart_id": "d.ii",
+                            "question_text": "Hence find the area of triangle BCD.",
+                            "answer_text": "10.5"
+                        }
+                    ],
+                    "page_number": 13
+                },
+                {
+                    "question_id": "MM-2017-T2-QB3",
+                    "question_number": 3,
+                    "section": "B",
+                    "unit": "Unit 4",
+                    "aos": "AOS 4: Probability and Statistics",
+                    "subtopic": "Probability Distributions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Hard",
+                    "question_text": "A logistics company operates a parcel delivery service. Thirty percent of parcels that the company delivers require a signature at the delivery address. The requirement of a signature for any one parcel is independent of the requirement for any other parcel. A sample of 50 parcels is taken at one of the company's warehouses.",
+                    "answer_text": "",
+                    "detailed_answer": "a.i. Pr(X ≥ 10) = 0.9598.\nii. Pr(X > 15 | X ≥ 10) = 0.4489.\nb. S = 0.0228.\nc. Pr(exactly one of first three > 6 hours) = 0.0652.\nd. Pr(0.04 ≤ P-hat ≤ 0.06) = 0.3336.\ne. 95% CI: (0.002, 0.078).\nf.i. Median = 32.8 minutes.\nf.ii. Pr(delivered within 10 min | not delivered in 20 min) = 0.305.",
+                    "subparts": [
+                        {
+                            "subpart_id": "a.i",
+                            "question_text": "Find the probability that at least 10 of these parcels require a signature. Give your answer correct to four decimal places.",
+                            "answer_text": "0.9598"
+                        },
+                        {
+                            "subpart_id": "a.ii",
+                            "question_text": "Find the probability that more than 15 of these parcels require a signature given that at least 10 require a signature. Give your answer correct to four decimal places.",
+                            "answer_text": "0.4489"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "Let S represent the probability that the delivery time of a parcel is more than six hours. Show that S = 0.0228, correct to four decimal places.",
+                            "answer_text": "S = 0.0228"
+                        },
+                        {
+                            "subpart_id": "c",
+                            "question_text": "Find the probability that exactly one of the first three parcels analysed has a delivery time of more than six hours. Give your answer correct to four decimal places.",
+                            "answer_text": "0.0652"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Find the probability that Pr(0.04 ≤ P-hat ≤ 0.06). Give your answer correct to four decimal places. Do not use a normal approximation.",
+                            "answer_text": "0.3336"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "Find an approximate 95% confidence interval for the population proportion corresponding to this sample proportion of damaged parcels. Give values correct to three decimal places.",
+                            "answer_text": "(0.002, 0.078)"
+                        },
+                        {
+                            "subpart_id": "f.i",
+                            "question_text": "Find the median delivery time, in minutes, of a document, correct to one decimal place.",
+                            "answer_text": "32.8"
+                        },
+                        {
+                            "subpart_id": "f.ii",
+                            "question_text": "Twenty minutes after a document has been dispatched, the document has not been delivered and a customer contacts the company to enquire about when it will be delivered. Find the probability that the document is delivered within 10 minutes of the customer having contacted the company. Give your answer correct to three decimal places.",
+                            "answer_text": "0.305"
+                        }
+                    ],
+                    "page_number": 16
+                },
+                {
+                    "question_id": "MM-2017-T2-QB4",
+                    "question_number": 4,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Hard",
+                    "question_text": "Let f: (-∞, 2) -> R, f(x) = log_e (2 - x). The graph of f is shown below.",
+                    "answer_text": "",
+                    "detailed_answer": "a.i. g(x) = log_e (2 + x), domain (-2, ∞).\na.ii. Area = (1/2) log_e 2.\nb.i. y-intercept: (0, log_e k), x-intercept: (k - 1, 0).\nb.ii. Shown that h is strictly increasing on (-∞, k).\nb.iii. Tangent: y = -x + k - 1.\nb.iv. A(k) = k^2 / 2 - (1/2) - k log_e k.\nb.v. k = 5.12.\nc.i. h^{-1}(x) = k - e^x, domain (-∞, log_e k).\nc.ii. p = 0, q = k - 1.",
+                    "subparts": [
+                        {
+                            "subpart_id": "a.i",
+                            "question_text": "The graph of f is reflected in the y-axis to become the graph of g. Find the rule and domain of g.",
+                            "answer_text": "g(x) = log_e (2 + x), (-2, ∞)"
+                        },
+                        {
+                            "subpart_id": "a.ii",
+                            "question_text": "Find the area enclosed by the graphs of f and g and the x-axis.",
+                            "answer_text": "(1/2) log_e 2"
+                        },
+                        {
+                            "subpart_id": "b.i",
+                            "question_text": "Find, in terms of k, the coordinates of the x and y intercepts of the graph of h.",
+                            "answer_text": "y-intercept: (0, log_e k), x-intercept: (k - 1, 0)"
+                        },
+                        {
+                            "subpart_id": "b.ii",
+                            "question_text": "Show that if h(x_1) > h(x_2) then x_1 < x_2, where x_1 ∈ (-∞, k) and x_2 ∈ (-∞, k).",
+                            "answer_text": "Shown"
+                        },
+                        {
+                            "subpart_id": "b.iii",
+                            "question_text": "Find the equation of the tangent to h at the point (k - 1, 0).",
+                            "answer_text": "y = -x + k - 1"
+                        },
+                        {
+                            "subpart_id": "b.iv",
+                            "question_text": "Show that the rule A(k) of this function is given by A(k) = k^2 / 2 - 1/2 - k log_e (k).",
+                            "answer_text": "A(k) = k^2 / 2 - 1/2 - k log_e k"
+                        },
+                        {
+                            "subpart_id": "b.v",
+                            "question_text": "Find the value of k for which the shaded area from part iv. equals the area enclosed by the graph of h and the x and y axes. Give your answer correct to 2 decimal places.",
+                            "answer_text": "5.12"
+                        },
+                        {
+                            "subpart_id": "c.i",
+                            "question_text": "Find the rule and domain of h^{-1}, the inverse function of h.",
+                            "answer_text": "h^{-1}(x) = k - e^x, (-∞, log_e k)"
+                        },
+                        {
+                            "subpart_id": "c.ii",
+                            "question_text": "The tangent to h at the point (k - 1, 0) found in part b.iii. is also a tangent to h^{-1} at the point (p, q). Find the values of p and q.",
+                            "answer_text": "p = 0, q = k - 1"
+                        }
+                    ],
+                    "page_number": 19
+                }
+            ]
+        }
+    ]
+}

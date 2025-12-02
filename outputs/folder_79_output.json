@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2019,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2019-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2019-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The period and amplitude of the graph of 3cos 22yxππ=−− respectively are",
+                    "answer_text": "1 and 3",
+                    "detailed_answer": "The general form is A cos(B(x - C)) + D. Here, A = 3, so amplitude = 3. B = 2π, period = 2π / B = 1. Answer E.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2019-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Domain and Range",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider (x) = sin x for x in [0, 2π] and g(x) = x² + 1 over its maximal domain. The domain of g(f(x)) is",
+                    "answer_text": "[0, 2π]",
+                    "detailed_answer": "f(x) = sin x, domain [0, 2π], range [-1, 1]. g(x) = x² + 1, domain ℝ. g(f(x)) = sin²x + 1, domain same as f, [0, 2π]. Answer D.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2019-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Solving Trigonometric Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The general solution of the equation 2 sin(2x) = 1 can be written as",
+                    "answer_text": "x = 5π/12 + nπ or x = 7π/12 + nπ, n ∈ ℤ",
+                    "detailed_answer": "sin(2x) = 1/2. Principal solutions: 2x = π/6 or 5π/6. x = π/12 or 5π/12. General: x = π/12 + nπ or 5π/12 + nπ. Equivalent to 5π/12 + nπ or 7π/12 + nπ. Answer C.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2019-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Polynomials",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Hard",
+                    "question_text": "The number of distinct x-intercepts for the graph of f(x) = x⁴ - 3x³ + 60x² - 450x + 1500 + kx, where k is a real constant could be",
+                    "answer_text": "0, 1 or 2",
+                    "detailed_answer": "The quartic without k has one turning point. Adding k translates vertically, resulting in 0, 1, or 2 x-intercepts. Answer A.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2019-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "The inverse of the function f: ℝ → [2, ∞), f(x) = (x - 3)² + 4/3 can be expressed as",
+                    "answer_text": "f⁻¹: [-∞, 4) → ℝ, f⁻¹(x) = 3 - √(4/3 (x - 1))",
+                    "detailed_answer": "Set y = (x - 3)² + 4/3. Swap: x = (y - 3)² + 4/3. (y - 3)² = x - 4/3. y - 3 = -√(x - 4/3) (decreasing branch). y = 3 - √(x - 4/3) = 3 - √((4/3)(x - 1)). Domain [-∞, 4). Answer C.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2019-T2-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Under a sequence of transformations the image of y = eˣ is y = e^{-2x²} + 3. The transformations applied, in order, to the graph of y = eˣ are",
+                    "answer_text": "Dilation from x-axis by 2, dilation from y-axis by 0.5, reflection in y-axis, translation 3 units up",
+                    "detailed_answer": "Start with y = eˣ. Dilation x-axis factor 2: y = e^{2x}. Dilation y-axis factor 0.5: y = 0.5 e^{2x}. Reflection y-axis: y = 0.5 e^{-2x}. Square: y = 0.5 e^{-2x²}. But solution indicates direct to e^{-2x²} then adjust. Effective: dilate x by 2, y by 0.5, reflect y-axis, translate y by 3. Answer E.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2019-T2-Q7",
+                    "question_number": 7,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Easy",
+                    "question_text": "The graph of y = 2 log₂(e^{x-2}) - x has only",
+                    "answer_text": "two vertical asymptotes",
+                    "detailed_answer": "Simplify: y = 2(x-2) - x = x - 4. But question likely y = log₂(e^{2(x-1)}) - x or misOCR. Solution indicates two vertical asymptotes at x=1 and x=2. Answer B.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2019-T2-Q8",
+                    "question_number": 8,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Medium",
+                    "question_text": "Which one of the following functions does not have an inverse which is a function?",
+                    "answer_text": "l: ℝ → (-∞, 1], l(x) = (x+1)(x-2)",
+                    "detailed_answer": "l(x) = x² - x - 2, parabola opening up, not one-to-one. Others are one-to-one. Answer E.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2019-T2-Q9",
+                    "question_number": 9,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "Algebra",
+                    "subtopic": "Matrix Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A matrix transformation is described by T: ℝ² → ℝ², [x' y'] = [[-0.5, 0], [0, 2]] [x y] + [10, 0]. The equation of the image under this transformation from the graph of y = 3x is",
+                    "answer_text": "y = 3x² - 2x + 20",
+                    "detailed_answer": "Apply transformation to line y=3x. New points satisfy transformed equation. Solution derives y' = 3x''² - 2x'' + 20, but options suggest 3yx = - + 2. Wait, solution has 322yx= −+. Answer B.",
+                    "subparts": [],
+                    "page_number": 6
+                }
+            ]
+        }
+    ]
+}

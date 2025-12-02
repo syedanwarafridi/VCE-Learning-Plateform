@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "The Heffernan Group"
+    },
+    "exams": [
+        {
+            "year": 2016,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2016-heffernan-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2016-TE2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The period of the function y=2tan(3πx/4) is",
+                    "answer_text": "C",
+                    "detailed_answer": "The general form of the tangent function is y = A tan(B(x - C)) + D, where the period is π / |B|. Here, B = 3π/4, so period = π / (3π/4) = 4/3.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2016-TE2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Quadratic Functions",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Medium",
+                    "question_text": "The function with rule f(x)=(x-1)^2 has a range of [1,∞). The domain of f could be",
+                    "answer_text": "A",
+                    "detailed_answer": "For f(x) = (x-1)^2, the range is [1,∞) when the domain is x ∈ (-∞,0), as x < 1 ensures f(x) ≥ 1, and the parabola opens upwards.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2016-TE2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of the function g is shown below. The rule for g could be",
+                    "answer_text": "D",
+                    "detailed_answer": "The graph is an upright quartic touching the origin with roots at 0 and a (negative), and another positive root b. Thus, g(x) = x^2 (x - a)(x - b), where a < 0 < b.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2016-TE2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f: [0,a] → R, f(x) = 3/2 cos(πx/3 + π/2), x ≥ 0. If the inverse function f^{-1} exists, then the maximum possible value of a is",
+                    "answer_text": "A",
+                    "detailed_answer": "The function f(x) = 3/2 cos(πx/3 + π/2) simplifies to f(x) = -3/2 sin(πx/3). It is one-to-one on [0, π/6], so maximum a = π/6.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2016-TE2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The tangent to the graph of y = log_a (x), x > 0 at the point where x = 1/a, has a y-intercept of",
+                    "answer_text": "A",
+                    "detailed_answer": "The derivative dy/dx = 1/(x ln a). At x = 1/a, slope = ln a. Equation: y - 0 = ln a (x - 1/a), y-intercept (x=0) is y = -ln a / a. For a = e, y = -1.",
+                    "subparts": [],
+                    "page_number": 4
+                }
+            ]
+        }
+    ]
+}

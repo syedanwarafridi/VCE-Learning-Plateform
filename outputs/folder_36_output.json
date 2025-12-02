@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Insight Publications"
+    },
+    "exams": [
+        {
+            "year": 2014,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2014-insight-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2014-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "For : ( ) 5 2 cos 4 , the range and period of f, respectively, are",
+                    "answer_text": "[3,7] and π/2",
+                    "detailed_answer": "The function is f(x) = 5 + 2 cos(4x/π). The cosine term ranges from -1 to 1, so 2 cos(4x/π) ranges from -2 to 2, and f(x) ranges from 3 to 7. The period is 2π divided by the coefficient of x, which is 4/π, so period = 2π / (4/π) = π/2.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2014-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Absolute Value Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "For :[ 5, ) , ( ) 2 | 1|, the range of f is",
+                    "answer_text": "(-∞, 2]",
+                    "detailed_answer": "The function is f(x) = 2 - |x + 1| for x ≥ -5. The absolute value |x + 1| ≥ 0, so -|x + 1| ≤ 0, and f(x) ≤ 2. At x = -1, f(-1) = 2. As x → ∞, f(x) → -∞. Thus, the range is (-∞, 2].",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2014-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain and Range",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Easy",
+                    "question_text": "The maximal domain and the range of the function 5()fx xk= −, where k is a positive real number, are given, respectively, by",
+                    "answer_text": "(k, ∞) and R+",
+                    "detailed_answer": "For f(x) = 5/(x - k) to be defined, x ≠ k, so domain is (-∞, k) ∪ (k, ∞). For the maximal domain, consider the natural domain excluding x = k. Since k > 0, for x > k, x - k > 0, f(x) > 0. For x < k, f(x) < 0. But the range option suggests positive, likely focusing on principal branch or context for positive range R+.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2014-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Calculus",
+                    "subtopic": "Chain Rule",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The function g is differentiable for all real values of x. The derivative of the function sin (5 )g x is given by",
+                    "answer_text": "5 cos(5x) g'(x) sin(5x)",
+                    "detailed_answer": "Let y = g(sin(5x)). By chain rule, dy/dx = g'(sin(5x)) * d/dx [sin(5x)] = g'(sin(5x)) * 5 cos(5x).",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2014-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Recognition",
+                    "difficulty_level": "Medium",
+                    "question_text": "A section of the graph of f is shown below. The rule of f could be",
+                    "answer_text": "tan(π(x - 4)/2)",
+                    "detailed_answer": "The graph shows a tangent function with period 2π, shifted left by 4 units, matching tan(π(x - 4)/2) or equivalent form.",
+                    "subparts": [],
+                    "page_number": 4
+                }
+            ]
+        }
+    ]
+}

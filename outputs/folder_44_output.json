@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Insight Publications"
+    },
+    "exams": [
+        {
+            "year": 2015,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2015-insight-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2015-T2-S1-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Easy",
+                    "question_text": "The maximal domain of the function with the rule y = 1/(a - x), a > 0 is",
+                    "answer_text": "E",
+                    "detailed_answer": "The function y = 1/(a - x) is defined when a - x ≠ 0, so x ≠ a. Since a > 0, the maximal domain is all real numbers except x = a, which is (-∞, a] ∪ (a, ∞), but option E is (-∞, a]. The correct choice based on options is E.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2015-T2-S1-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "For the function f(x) = a x^3 + b x^2 + c x + d, f(1) = 2, f(-2) = 10, f'(1) = -3 and f'(3) = -36. A matrix equation AX = B is to be used to find the values of a, b, c and d where X = [a b c d]^T and B = [-2 10 -3 -36]^T. The matrix A is",
+                    "answer_text": "D",
+                    "detailed_answer": "The system is f(1) = a + b + c + d = 2, f(-2) = -8a + 4b - 2c + d = 10, f'(1) = 3a + 2b + c = -3, f'(3) = 27a + 6b + c = -36. Subtracting gives 19a + 4b = -33. The matrix A is [[1 1 1 1] [-8 4 -2 1] [3 2 1 0] [27 6 1 0]].",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2015-T2-S1-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Quadratic Functions",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f: R → R, f(x) = x^2 + a x, for a < 0. It is true to say that the graph of y = f(x) has",
+                    "answer_text": "E",
+                    "detailed_answer": "f'(x) = 2x + a. Since a < 0, the vertex is at x = -a/2 > 0. f'(x) < 0 for x < -a/2 and f'(x) > 0 for x > -a/2, so f'(x) > 0 for x > 0.",
+                    "subparts": [],
+                    "page_number": 4
+                }
+            ]
+        }
+    ]
+}

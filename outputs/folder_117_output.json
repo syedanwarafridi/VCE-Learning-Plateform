@@ -1,0 +1,603 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Heffernan Group Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2024,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2024-heffernan-units-3-4-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2024-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The amplitude and the period of the function y = 2 sin(3x + π/6), are given respectively by",
+                    "answer_text": "D",
+                    "detailed_answer": "The amplitude is 2. Note that the amplitude is always positive. The period is 2π/3. The answer is D.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2024-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain and Range",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The function g is continuous over its domain R, and the function h is continuous over its domain R. Let f(x) = g(h(x)). The domain of f is",
+                    "answer_text": "C",
+                    "detailed_answer": "The answer is C.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2024-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Quadratic Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The equation 3x² + 5x - 2 = 0 has two real solutions if",
+                    "answer_text": "A",
+                    "detailed_answer": "It is a quadratic equation in the variable x. It will have two real solutions when the discriminant is greater than zero. The answer is A.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2024-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Numerical Methods",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of the function f has a positive x-intercept at a. Newton’s method is used to find the approximate value of a, with an initial estimate of x₀ = 1 being used. If xₙ correctly approximates the value of a to four decimal places, then the minimum value of n is",
+                    "answer_text": "C",
+                    "detailed_answer": "Define f on your CAS. Solve f(x) = 0 to find the actual intercept. Define g on your CAS and use Newton’s method to find an approximation x₁. The answer is C.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2024-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Linear Systems",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A system of simultaneous linear equations is given by 2x + 3y = 5, 4x + ky = 7. There will be a unique solution only when",
+                    "answer_text": "D",
+                    "detailed_answer": "Method 1: There is no unique solution when the gradients are equal, i.e. when k = 6. Therefore, there is a unique solution when k ≠ 6. The answer is D.\nMethod 2: As a matrix equation, this system can be written as [[2,3],[4,k]] [x,y]^T = [5,7]^T. There will be no solution or infinite solutions when det = 2k - 12 = 0, i.e. k = 6. When k = 6, the system becomes inconsistent. There will be a unique solution when k ≠ 6. The answer is D.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2024-T2-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f(x) = cos(x) + x. If the inverse function f⁻¹ exists, then the maximum value of a is",
+                    "answer_text": "B",
+                    "detailed_answer": "For f⁻¹ to exist, f must be 1:1. The period of f is 2π. So f is 1:1 over the interval [-π/2, π/2]. So the maximum value of a is π. You can double-check by finding the min/max points on the graph of f between say -2 and 2. Note that the left endpoint of the domain of f cannot equal -π because f must be 1:1. The answer is B.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2024-T2-Q7",
+                    "question_number": 7,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Composite Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let g(x) = x² - 4 and h(x) = √(x + 5). The composite function h ∘ g is given by h(g(x)) = √(x² + 1). The range of h is",
+                    "answer_text": "D",
+                    "detailed_answer": "Sketch the graph of h, noting that h(x) ≥ 0. The answer is D.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2024-T2-Q8",
+                    "question_number": 8,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Piecewise Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the function f given by f(x) = { x² if x < 1, (x-1)² + 1 if x ≥ 1 }. The graph of f is continuous and smooth at x = 1 when",
+                    "answer_text": "D",
+                    "detailed_answer": "For the graph to be continuous at x = 1 we require that lim_{x→1^-} f(x) = lim_{x→1^+} f(x). For the graph to be smooth at x = 1, we require that f'(1^-) = f'(1^+). At x = 1, f(1) = 2. The answer is D.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2024-T2-Q9",
+                    "question_number": 9,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "If sin θ = 3/5 and θ is in quadrant II, then cos θ is equal to",
+                    "answer_text": "C",
+                    "detailed_answer": "The answer is C.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2024-T2-Q10",
+                    "question_number": 10,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Derivatives",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The two functions f and g are continuous and differentiable for x > 0, where f(2) = 3, g(2) = 4, and f'(2) = 1, g'(2) = -2. At the point where x = 2, the gradient of the graph of f/g is",
+                    "answer_text": "B",
+                    "detailed_answer": "At x = 2, (f/g)' = (f'g - fg') / g² = (1*4 - 3*(-2)) / 16 = 10/16 = 5/8. The answer is B.",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2024-T2-Q11",
+                    "question_number": 11,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Confidence Intervals",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A body corporate surveyed 90 randomly selected residents of a very large apartment complex and found that one-sixth of the surveyed residents owned a pet. The body corporate calculated a confidence interval of (0.0930, 0.2170) correct to four decimal places. The value of p is closest to",
+                    "answer_text": "B",
+                    "detailed_answer": "Method 1 – trial and error and CAS (1 – Prop z Interval): (i.e. 15 out of 90 surveyed residents owned a pet) 75% confidence interval [0.0893, 0.2030] 80% confidence interval [0.0930, 0.2170] So p = 80%. The answer is B.\nMethod 2 – set up and solve an appropriate equation: The right endpoint of the interval is 0.2170. Therefore, this confidence interval has closest to an 80% level of confidence, so p = 80%. The answer is B.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2024-T2-Q12",
+                    "question_number": 12,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Independent Events",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let A and B be two independent events from a sample space where P(A) = 0.5 and P(B) = 0.6. P(A ∪ B) is equal to",
+                    "answer_text": "C",
+                    "detailed_answer": "Since A and B are independent P(A ∩ B) = P(A)P(B) = 0.3. P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.5 + 0.6 - 0.3 = 0.8. We are told that P(A ∪ B) = x. Solving for x gives x = 0.8, so P(A ∪ B) = 0.8. Note that P(A ∪ B) cannot be greater than 1. The answer is C.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2024-T2-Q13",
+                    "question_number": 13,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Normal Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The weights of fresh lemons picked from a particular lemon orchard are normally distributed. If 10% of the lemons weigh more than 66 grams and 15% of the lemons weigh less than 56 grams, the mean weight μ, in grams, of a fresh lemon from the orchard is closest to",
+                    "answer_text": "B",
+                    "detailed_answer": "Using z-scores: z_{0.9} ≈ 1.28 for 66g, z_{0.15} ≈ -1.04 for 56g. Solving simultaneously: μ + 1.28σ = 66, μ - 1.04σ = 56. The closest value of the mean is 60.5. The answer is B.",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2024-T2-Q14",
+                    "question_number": 14,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Numerical Integration",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The following algorithm uses the trapezium rule to estimate the area under a graph over a particular interval. [Algorithm code]. The algorithm is run using the instruction trapezium(sin x, 0, 3, 3). The output is",
+                    "answer_text": "B",
+                    "detailed_answer": "i = 1, x = 1, total = sin0 + sin3 + 2sin1 ≈ 3.8415\ni = 2, x = 2, total ≈ 3.8415 + 2sin2 ≈ 6.8958\ni = 3, x = 3, loop ends\ntotal (h/2) with h = 1, area estimate ≈ 3.4479. The answer is B.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2024-T2-Q15",
+                    "question_number": 15,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Conditional Probability",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A purse contains four gold coins and five silver coins. Four coins are randomly drawn from the purse without replacement. The probability that an equal number of gold and silver coins are drawn, given that at least one silver coin is drawn, is",
+                    "answer_text": "C",
+                    "detailed_answer": "The answer is C.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2024-T2-Q16",
+                    "question_number": 16,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Binomial Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "A fair 6-sided die is being rolled. For random samples of n die rolls, where n is an integer greater than two, p̂ is the random variable that represents the proportion of die rolls that have a number less than three thrown. If P(p̂ > 0.5) < 0.05, the smallest value of n is",
+                    "answer_text": "D",
+                    "detailed_answer": "Method 1 – using the formula for binomial probability distribution: The answer is D.\nMethod 2 – trial and error: The smallest value of n is 9. The answer is D.",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2024-T2-Q17",
+                    "question_number": 17,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Derivatives and Tangents",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The tangent to the graph of y = x³ - 3x is parallel to the line with equation y = 6x - 1 at particular points on the graph. Which one of the following gives all the possible values of x at these points?",
+                    "answer_text": "A",
+                    "detailed_answer": "Solve for x where y' = 6: 3x² - 3 = 6 → x² = 3 → x = ±√3. Two of these options are given in option D but two are missing and we are asked for all the possible values of x, so eliminate option D. Note that √3 ≈ 1.732. Solve 3x² - 3 = 6. We require x ∈ [-2, 2] or alternatively, |x| ≤ 2, because we need a solution in each quadrant. So x = ±√3. The answer is A.",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2024-T2-Q18",
+                    "question_number": 18,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "Let f(x) = x⁴ - 4x² + 3. The graph of y = f(x + k) has two or more stationary points with positive x-coordinates. Which one of the following is not a possible value of k?",
+                    "answer_text": "A",
+                    "detailed_answer": "Sketch the graph of f. The graph of y = f(x - k) translates the graph of f k units to the right when k is positive. It translates the graph of f k units to the left when k is negative. For there to be at least two stationary points with positive x-coordinates, the graph of f can be translated up to 11.03… units to the left. Any further left and there will be less than two stationary points with a positive x-coordinate. In other words, how far left can we translate the graph of f so that two of its stationary points remain to the right of the y-axis? We require |k| < √3 + 1 ≈ 2.732. Since k = -3 is not a possible value of k. The answer is A.",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2024-T2-Q19",
+                    "question_number": 19,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Normal Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The probability density functions of two normal random variables X and Y are respectively f(x) and g(y). The means of X and Y are both zero and the standard deviation of X is half the standard deviation of Y. A transformation y = ax maps the graph of f onto the graph of g, where g(y) = (1/a) f(y/a). The values of a and b could be",
+                    "answer_text": "B",
+                    "detailed_answer": "A normal distribution is a continuous probability distribution so P(X = 0) = 0. Reject option A. The standard deviation of X is half the standard deviation of Y or alternatively put, the standard deviation of Y is twice the standard deviation of X. Therefore, the graph of f will be dilated from the y-axis by a factor of 2 to become the graph of g. So a could equal 2. Option B is the only option that satisfies these requirements for b. The answer is B.",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2024-T2-Q20",
+                    "question_number": 20,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "Let f(x) = x³ + a x and let g be the inverse function of f. Given that f'(g(0)) < 0, then all the possible values of a are given by",
+                    "answer_text": "A",
+                    "detailed_answer": "Given f(g(0)) = 0. Sketch the graph of f using sliders. For example: Note that when a = 0 f is a horizontal straight line i.e. a many:1 function, and hence does not have an inverse function so reject option B. The gradient of g is negative for negative values of a, i.e. for a < 0. The answer is A.",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2024-T2-QB1",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Quartic Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Medium",
+                    "question_text": "The diagram below shows part of the graph of the quartic function f(x) = x⁴ - 4x³ + 6x² - 4x + 1.",
+                    "answer_text": "",
+                    "detailed_answer": "a. Define f on your CAS. f Max(f(x), x) gives x = 1 and f(1) = 2. The maximum value occurs at (1, 2). (1 mark)\nb. The stationary point is a point of inflection. (1 mark)\nc. The gradient of the graph of f is positive i.e. f'(x) > 0 for x < 0 and 2 < x. (1 mark) Note that at x = 0, f'(0) = 0 and at x = 2, f'(2) = 0.\nd. Since f(x) > 0 for x > 0 and f(0) = 1, if the graph of y = f(x) + h is translated 4 or more units to the left, then it will have no positive x-intercepts and hence will have no positive solutions for f(x) + h = 0. (1 mark)\ne. Since the maximum value of f occurs at x = 1 from part a., then if the graph of y = f(x) - k is translated more than 9 units downwards, it will not intersect with the x-axis and hence will have no solutions for f(x) - k = 0. (1 mark)\nf. Using CAS, tangentLine(f(x), x=1), the equation is y = 2. (1 mark)\ng. Since the tangents are parallel, this second tangent has a gradient of 0. Solve f'(x) = 0. x = 0 or x = 3. So q = 3. (1 mark)\nh. The gradient of the parallel tangents is 0 so the gradient of the straight line that is perpendicular is undefined. It passes through (0,0) so its equation is x = 0. (1 mark) The equation of the tangent to f at x = 1 is y = 2 (from part f.) We need to find the point of intersection of this tangent and x = 0. A is the point (0, 2) and B is the point (1, 2). The midpoint of AB is (0.5, 2). (1 mark)",
+                    "subparts": [
+                        {
+                            "subpart_id": "a",
+                            "question_text": "Find the coordinates of the point at which the maximum value of f occurs. 1 mark",
+                            "answer_text": "(1, 2)"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "State the nature of the stationary point on the graph of f at x = 1. 1 mark",
+                            "answer_text": "point of inflection"
+                        },
+                        {
+                            "subpart_id": "c",
+                            "question_text": "Find the values of x for which f'(x) > 0. 1 mark",
+                            "answer_text": "x < 0 or x > 2"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Find the values of h such that f(x) + h = 0 has no positive solutions. 1 mark",
+                            "answer_text": "h ≥ -1"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "Find the values of k such that f(x) - k = 0 has no solutions. 1 mark",
+                            "answer_text": "k > 2"
+                        },
+                        {
+                            "subpart_id": "f",
+                            "question_text": "Find the equation of the tangent to f at x = 1. 1 mark",
+                            "answer_text": "y = 2"
+                        },
+                        {
+                            "subpart_id": "g",
+                            "question_text": "The graph of y = f(x) + q has a tangent at the point where x = 3, that is parallel to the tangent found in part f. Find the value of q. 1 mark",
+                            "answer_text": "q = 3"
+                        },
+                        {
+                            "subpart_id": "h",
+                            "question_text": "A straight line passes through the origin and is perpendicular to the tangent found in part f. This straight line intersects the tangent at the point A. It also intersects the tangent to f at x = 3 at the point B. Find the midpoint of the line segment AB. 3 marks",
+                            "answer_text": "(0.5, 2)"
+                        }
+                    ],
+                    "page_number": 9
+                },
+                {
+                    "question_id": "MM-2024-T2-QB2",
+                    "question_number": 2,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Parabolas",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Medium",
+                    "question_text": "The parabolic cross-section of a rail tunnel is modelled by the function y = a - x²/(4a) where x is the horizontal distance, in metres, from an origin O and y is the vertical distance, in metres, above the horizontal base of the tunnel. The graph of f is shown below.",
+                    "answer_text": "",
+                    "detailed_answer": "a. i. Define f(x) on your CAS. x-intercepts occur when y = 0. Solve a - x²/(4a) = 0. x = ±2a. Domain is [-2a, 2a]. (1 mark)\nii. Halfway between x-intercepts. The equation of the axis of symmetry is x = 0. (1 mark)\niii. f is strictly increasing for -2a ≤ x < 0. (1 mark) Note that the endpoints are included.\nb. Maximum height of the tunnel is a. Width of base of tunnel is 6a. Solve a < 2*(6a). a < 12a. -11a < 0. a > 0. (1 mark) (1 mark)\nc. Note that in order to give an exact answer, it is necessary to work in fractions. The height of the platform above the base of the tunnel is 2 metres. So the vertical distance required is 2a - 2 metres. (1 mark)\nd. Let the distance from P to Q be d. (1 mark) Solve d = √( (4 - m)^2 + (2a - 2 - (a - 16²/(4a)) )^2 ). But m = 4. (1 mark) Maximum length of beam of light is 15.0 metres (correct to 1 decimal place). (1 mark)\ne. Solve ∫_0^m (a - x²/(4a)) dx = ∫_m^8 (a - x²/(4a)) dx. (1 mark) left side [a x - x³/(12a)]_0^m = a m - m³/(12a) (1 mark) right side [a x - x³/(12a)]_m^8 = (8a - 512/(12a)) - (a m - m³/(12a)) = 8a - 128/(3a) - a m + m³/(12a) But areas equal so 11a m - m³/(6a) = 8a - 128/(3a). (1 mark)",
+                    "subparts": [
+                        {
+                            "subpart_id": "a.i",
+                            "question_text": "Write down, in terms of a, the domain of f. 1 mark",
+                            "answer_text": "[-2a, 2a]"
+                        },
+                        {
+                            "subpart_id": "a.ii",
+                            "question_text": "State the equation of the axis of symmetry of the graph of f in terms of a. 1 mark",
+                            "answer_text": "x = 0"
+                        },
+                        {
+                            "subpart_id": "a.iii",
+                            "question_text": "Find the values of x, in terms of a, for which f is strictly increasing. 1 mark",
+                            "answer_text": "-2a ≤ x < 0"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "Find the values of a for which the maximum height of the tunnel is less than twice the width of the base of the tunnel. 2 marks",
+                            "answer_text": "a > 0"
+                        },
+                        {
+                            "subpart_id": "c",
+                            "question_text": "Find the vertical distance, in metres, from the platform to the top of the vertical platform wall. 1 mark",
+                            "answer_text": "2a - 2"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Find the maximum length of the beam of light that the spotlight must be able to project. Give your answer, in metres, correct to one decimal place. 3 marks",
+                            "answer_text": "15.0"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "Find the value of m if area A is equal to area B. Give your answer correct to two decimal places. 3 marks",
+                            "answer_text": "m = 4.00"
+                        }
+                    ],
+                    "page_number": 11
+                },
+                {
+                    "question_id": "MM-2024-T2-QB3",
+                    "question_number": 3,
+                    "section": "B",
+                    "unit": "Unit 4",
+                    "aos": "AOS 5: Probability and Statistics",
+                    "subtopic": "Normal and Binomial Distributions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Hard",
+                    "question_text": "An online food delivery company delivers ready-made meals to customers’ homes. Due to a decline in business revenue, a manager is reviewing the company’s service history. It is found that the number of minutes before or after the time the food is expected to have arrived at the customer’s address, is a normally distributed variable, with a mean of zero minutes and a standard deviation of five minutes.",
+                    "answer_text": "",
+                    "detailed_answer": "a. Let T be a normally distributed variable with μ = 0, σ = 5. P(|T| < 2) = 2Φ(2/5) - 1 = 0.9772 (correct to 4 decimal places). (1 mark)\nb. or alternatively, P(T > k) = 0.05. Using the inverse normal function on CAS, k = invNormal(0.95, 0, 5) ≈ 7.653. So k ≈ 7.653 (correct to 3 decimal places). (1 mark)\nc. i. The manager models a binomial distribution with parameters n = 6, p = 0.5. ( binomPdf(6,0.5,2) = 0.234375) ( binomPdf(6,0.5,3) = 0.3125) ( binomPdf(6,0.5,5) = 0.09375) (1 mark) for one correct point (1 mark) for all points correct\nii. P is a binomially distributed variable with parameters n = 6, p = 0.5. P(X ≥ 1) = 1 - binomPdf(6,0.5,0) = 0.9844 (correct to 4 decimal places). (1 mark)\niii. P(X ≤ 4 | X ≥ 1) = P(1 ≤ X ≤ 4) / P(X ≥ 1) = [1 - P(X = 0) - P(X = 5) - P(X = 6)] / 0.9844 ≈ 0.9219 (correct to 4 decimal places). (1 mark) (1 mark)\nd. i. Var(X) = E(X²) - [E(X)]² = (0²*0.8 + 1²*m + 2²*n) - (m + 2n)² = 4n + m - (m + 2n)² = 3m + 2n (since m + n = 0.2). (1 mark) (1 mark) (formula sheet) (1 mark)\nii. The graph of the function defining the variance is part of an inverted parabola. From the table, 0 ≤ m ≤ 0.2. This is the domain of the variance function. The maximum variance therefore occurs when m = 0.1. The maximum variance is therefore 0.3 or 0.3. (1 mark)\ne. i. Margin of error = (0.2248 - 0.1752)/2 = 0.0248. z ≈ 1.96 for 95%. ˆp ≈ 0.2, ˆsd(ˆp) = 0.0248 / 1.96 ≈ 0.0127 (correct to 4 decimal places). (1 mark) (1 mark)\nii. New width = old width / 4 = 0.0496 / 4 = 0.0124. New margin = 0.0062. n = (1.96 * ˆsd(ˆp) / 0.0062)² ≈ 10000. (1 mark) (1 mark)",
+                    "subparts": [
+                        {
+                            "subpart_id": "a",
+                            "question_text": "Find the probability that a meal arrives within two minutes of its expected arrival time. Give your answer correct to four decimal places. 1 mark",
+                            "answer_text": "0.9772"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "If five percent of customers are refunded, find value of k, correct to three decimal places. 1 mark",
+                            "answer_text": "7.653"
+                        },
+                        {
+                            "subpart_id": "c.i",
+                            "question_text": "Complete the graph above. 2 marks",
+                            "answer_text": "Plot points: P(1)=0.4688, P(4)=0.2344, P(6)=0.0156"
+                        },
+                        {
+                            "subpart_id": "c.ii",
+                            "question_text": "Find the probability that at least one of the deliveries is delivered late. Give your answer correct to four decimal places. 1 mark",
+                            "answer_text": "0.9844"
+                        },
+                        {
+                            "subpart_id": "c.iii",
+                            "question_text": "Find the probability that no more than four deliveries are delivered late given that at least one of the deliveries is late. Give your answer correct to four decimal places. 2 marks",
+                            "answer_text": "0.9219"
+                        },
+                        {
+                            "subpart_id": "d.i",
+                            "question_text": "Find the variance of the number of meals delivered to the incorrect address in terms of m. Express your answer in the form am + bn + c where a, b and c are real constants. 3 marks",
+                            "answer_text": "3m + 2n"
+                        },
+                        {
+                            "subpart_id": "d.ii",
+                            "question_text": "Hence, find the maximum variance of the number of meals delivered to the incorrect address. 1 mark",
+                            "answer_text": "0.3"
+                        },
+                        {
+                            "subpart_id": "e.i",
+                            "question_text": "Find the estimated standard deviation of ˆp. Give your answer correct to four decimal places. 2 marks",
+                            "answer_text": "0.0127"
+                        },
+                        {
+                            "subpart_id": "e.ii",
+                            "question_text": "Find the least number of delivered meals required to be sampled to reduce the width of this confidence interval by at least a quarter. 2 marks",
+                            "answer_text": "10000"
+                        }
+                    ],
+                    "page_number": 15
+                },
+                {
+                    "question_id": "MM-2024-T2-QB4",
+                    "question_number": 4,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Rational Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Hard",
+                    "question_text": "Consider the functions f(x) = 1/x and g(x) = √(x + 1) where D is the maximal domain of g.",
+                    "answer_text": "",
+                    "detailed_answer": "a. For g to exist, x + 1 ≥ 0 so x ≥ -1. D = [-1, ∞). (1 mark)\nb. Do a quick sketch. Area = ∫_0^3 (√(x + 1) - 1/x) dx = [ (2/3)(x + 1)^{3/2} - ln|x| ]_0^3 = ( (2/3)*8 - ln3 ) - ( 2 - 0 ) = 16/3 - ln3 - 2 = 10/3 - ln3. (1 mark) (1 mark) Note, because you haven’t been asked to express your answer correct to a certain number of decimal places, you must leave your answer as an exact value.\nc. i. h(x) = f(g(x)) = 1/√(x + 1). (1 mark)\nii. Domain: x ≥ -1. Range: h(x) > 0 so (0, ∞). (1 mark) (1 mark)\niii. Now make y the subject. y = 1/√(x + 1) → √(x + 1) = 1/y → x + 1 = 1/y² → x = 1/y² - 1. h⁻¹(x) = 1/x² - 1. (1 mark)\nd. By inspection, it is seen that the graphs of h and y = x intersect on the line y = 1, so the point of intersection is (1, 1). The average value of the function is (1/p) ∫_0^p h(x) dx. (1 mark) The graphs of h and y = 1/h are reflections of each other in the line y = x. Therefore, the shaded areas shown below are equal in area. So ∫_0^1 h(x) dx = ∫_1^p (1/h(x)) dx. So required average value expression (1/p) [ ∫_0^1 h(x) dx + ∫_1^p h(x) dx ] = (1/p) ∫_0^p h(x) dx. (1 mark)\ne. Solve using CAS. We require y = 1. So Q is the point (3, 1/2). (1 mark) Gradient = h'(3) = d/dx [1/√(x + 1)] at x = 3 = -1/(4 (x + 1)^{3/2}) at x = 3 = -1/32. (1 mark)\nf. Let θ be the angle that the tangent to h at Q makes with the positive branch of the x-axis. Using our answer to part e., tan θ = -1/32. We require |θ| < π/6. tan(π/6) = 1/√3 ≈ 0.577. Since |tan θ| < 0.577, |-1/32| < 1/√3. 1/32 < 1/√3. a > √3 / 32 * something wait, but (given in question) so a > 0. (1 mark) Using CAS but (given in question) so a > 0. (1 mark)",
+                    "subparts": [
+                        {
+                            "subpart_id": "a",
+                            "question_text": "State D using interval notation. 1 mark",
+                            "answer_text": "[-1, ∞)"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "Find the area bounded by the graphs of f and g and the line x = 3. 2 marks",
+                            "answer_text": "10/3 - ln 3"
+                        },
+                        {
+                            "subpart_id": "c.i",
+                            "question_text": "Show that h(x) = 1/√(x + 1). 1 mark",
+                            "answer_text": "h(x) = f(g(x)) = 1/g(x) = 1/√(x + 1)"
+                        },
+                        {
+                            "subpart_id": "c.ii",
+                            "question_text": "Find the maximal domain and range of h. 2 marks",
+                            "answer_text": "Domain: [-1, ∞), Range: (0, ∞)"
+                        },
+                        {
+                            "subpart_id": "c.iii",
+                            "question_text": "Find the rule for h⁻¹, the inverse function of h. 1 mark",
+                            "answer_text": "h⁻¹(x) = 1/x² - 1"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Write down an expression that includes p and the function h and which gives the average value of the function h over the interval [0, p]. Do not evaluate this expression. 2 marks",
+                            "answer_text": "(1/p) ∫_0^p h(x) dx"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "Find, in terms of a, the gradient of the tangent to the graph of y = a / √(x + 1) at the point Q where x = 3 and y = a/2. 2 marks",
+                            "answer_text": "-a / (4 (3 + 1)^{3/2}) = -a/32"
+                        },
+                        {
+                            "subpart_id": "f",
+                            "question_text": "Find the values of a for which the angle that the tangent to y = a / √(x + 1) at the point Q makes with the positive branch of the x-axis is less than π/6. 2 marks",
+                            "answer_text": "a > 0"
+                        }
+                    ],
+                    "page_number": 19
+                },
+                {
+                    "question_id": "MM-2024-T2-QB5",
+                    "question_number": 5,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Extended Response",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f(x) = sin(π x / 3) + sin(2 π x). Part of the graph of f is shown below.",
+                    "answer_text": "",
+                    "detailed_answer": "a. The period of sin(π x / 3) is 6. The period of sin(2 π x) is 1. It is required that the graphs of the two functions above simultaneously repeat. Therefore, the least common multiple of 6 and 1 is required, and the least common multiple is 6. Therefore, the graphs of the two functions simultaneously repeat after 6 units. The period of f is therefore 6. (1 mark)\nb. Graph f on your CAS. Make sure that the coordinates of the points on the graph are expressed to at least 4 decimal places on your CAS. One of the maximums occurs at x ≈ 1.4184, y ≈ 1.8787. So the maximum value of f is 1.879, correct to 3 decimal places. (1 mark)\nc. To obtain the graph of y = -f(x + c), the graph of f is translated c units to the left (since c is positive) and then reflected in the x-axis. The smallest positive value of c for which the graph of y = -f(x + c) will coincide with the graph of f is c = 3. For example, the point (3, 0) on the graph of f becomes the point (0, 0) on the graph of y = -f(x + 3). So c = 3. (1 mark)\nd. Solve ∫_0^q |f(x)| dx = 0, but actually find where net area is zero: ∫_0^q f(x) dx = 0. The smallest possible value of q is 10.73 (correct to two decimals places). (1 mark) (1 mark)\ne. The period of sin(π (x + b) / 3) is 6. The period of sin(2 π (x + b)) is 1. The least common multiple is 6. So the period of the functions is 6. (1 mark)\nf. i. The maximum value of g(x) = sin(π x / 3) + sin(2 π x + b) occurs at x = 3a/2. (1 mark)\nii. The maximum value of h(x) = sin(π (x + a) / 3) + sin(2 π x) occurs at x = 3(a - 1)/2. (1 mark)\ng. For g(x) + h(x) = 2, we would require that the maximum value of g, which is 2, occurred at the same x value as where the maximum value of h, which is also 2, occurred at. Therefore, we would require that 3a/2 = 3(a - 1)/2 which leads to 0 = -3/2, contradiction. Now a is odd and b is even therefore a + b is never an integer for integer a, b, therefore (a + b)π is never a perfect square, therefore a is never a positive integer. Therefore, the maximum value of g + h cannot be 2. (1 mark) (1 mark)",
+                    "subparts": [
+                        {
+                            "subpart_id": "a",
+                            "question_text": "State the period of f. 1 mark",
+                            "answer_text": "6"
+                        },
+                        {
+                            "subpart_id": "b",
+                            "question_text": "State the maximum value of f, correct to three decimal places. 1 mark",
+                            "answer_text": "1.879"
+                        },
+                        {
+                            "subpart_id": "c",
+                            "question_text": "Find the smallest positive value of c for which -f(x + c) = f(x). 1 mark",
+                            "answer_text": "3"
+                        },
+                        {
+                            "subpart_id": "d",
+                            "question_text": "Find the smallest value of q for which the area bounded by f and the x-axis over the interval [0, q], is equal above and below the x-axis. Give your answer correct to two decimal places. 2 marks",
+                            "answer_text": "10.73"
+                        },
+                        {
+                            "subpart_id": "e",
+                            "question_text": "Find, in terms of a, the period of the functions g(x) = sin(π x / 3) + sin(2 π x + a π) and h(x) = sin(π (x + a) / 3) + sin(2 π x). 1 mark",
+                            "answer_text": "6"
+                        },
+                        {
+                            "subpart_id": "f.i",
+                            "question_text": "Find the values of x, in terms of a, for which the maximum value of g(x) = sin(π x / 3) + sin(2 π x + a π) occur. 1 mark",
+                            "answer_text": "x = 3a/2"
+                        },
+                        {
+                            "subpart_id": "f.ii",
+                            "question_text": "Find the values of x, in terms of a, for which the maximum value of h(x) = sin(π (x + a) / 3) + sin(2 π x) occur. 1 mark",
+                            "answer_text": "x = 3(a - 1)/2"
+                        },
+                        {
+                            "subpart_id": "g",
+                            "question_text": "Hence show that the maximum value of g(x) + h(x) can never equal two. 2 marks",
+                            "answer_text": "Maximums do not coincide, so max(g + h) < 4, but specifically cannot be exactly 2 as required for equality."
+                        }
+                    ],
+                    "page_number": 22
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2023,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../MM-Exam2-2023.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2023-E2-Q1a",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let f : R → R, f (x) = x(x – 2)(x + 1). State the coordinates of all axial intercepts of f.",
+                    "answer_text": "(-1,0), (0,0), (2,0)",
+                    "detailed_answer": "The axial intercepts occur where f(x) = 0.\nSolve x(x - 2)(x + 1) = 0.\nThe solutions are x = -1, x = 0, x = 2.\nThus, the coordinates are (-1, 0), (0, 0) and (2, 0).",
+                    "subparts": [],
+                    "page_number": 10
+                },
+                {
+                    "question_id": "MM-2023-E2-Q1b",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Polynomial Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Find the coordinates of the stationary points of f.",
+                    "answer_text": "(1/3, -8/27), (7/3, 8/27)",
+                    "detailed_answer": "Stationary points occur where f'(x) = 0.\nf(x) = x^3 - x^2 - 2x\nf'(x) = 3x^2 - 2x - 2\nSet 3x^2 - 2x - 2 = 0\nDiscriminant = 4 + 24 = 28 = 4*7\nx = [2 ± 2√7]/6 = [1 ± √7]/3\nx1 = [1 - √7]/3 ≈ -0.548, x2 = [1 + √7]/3 ≈ 1.215\nf(x1) ≈ -0.098, f(x2) ≈ 0.098\nExact: x = (1 ± √7)/3, y = ±8/27",
+                    "subparts": [],
+                    "page_number": 11
+                },
+                {
+                    "question_id": "MM-2023-E2-Q2a",
+                    "question_number": 2,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Circular Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Consider the function h(t) = −60 cos(bt) + c for some b, c ∈ R, which models the height above the ground of a pod originally situated at point A, after time t minutes. Show that b = 15π and c = 75.",
+                    "answer_text": "b = 15π, c = 75",
+                    "detailed_answer": "The period is 30 minutes, so 2π/b = 30 ⇒ b = 2π/30 = π/15.\nAt t = 0, h(0) = 15: -60 cos(0) + c = 15 ⇒ -60 + c = 15 ⇒ c = 75.\nThe maximum height is 75 + 60 = 135 m, minimum 75 - 60 = 15 m.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-2023-E2-Q3a",
+                    "question_number": 3,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Exponential Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Consider the function g : R → R, g(x) = 2^x + 5. State the value of lim_{x→−∞} g(x).",
+                    "answer_text": "5",
+                    "detailed_answer": "As x → -∞, 2^x → 0, so g(x) → 0 + 5 = 5.",
+                    "subparts": [],
+                    "page_number": 16
+                },
+                {
+                    "question_id": "MM-2023-E2-Q4a",
+                    "question_number": 4,
+                    "section": "B",
+                    "unit": "Unit 4",
+                    "aos": "AOS 3: Probability",
+                    "subtopic": "Normal Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The diameter of the tennis balls is a normally distributed random variable D, which has a mean of 6.7 cm and a standard deviation of 0.1 cm. Find Pr(D > 6.8), correct to four decimal places.",
+                    "answer_text": "0.1587",
+                    "detailed_answer": "z = (6.8 - 6.7)/0.1 = 1\nPr(Z > 1) = 1 - 0.8413 = 0.1587",
+                    "subparts": [],
+                    "page_number": 18
+                }
+            ]
+        }
+    ]
+}

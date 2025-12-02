@@ -1,0 +1,83 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2013,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../MM-Exam2-2013.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions, relations and graphs",
+                    "percentage": 30
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2013-E2-Q1",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions, relations and graphs",
+                    "subtopic": "Circular functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Trigg the gardener is working in a temperature-controlled greenhouse. During a particular 24-hour time interval, the temperature (T °C) is given by T(t) = 25 + 2cosπt 8, 0 ≤ t ≤ 24, where t is the time in hours from the beginning of the 24-hour time interval. a. State the maximum temperature in the greenhouse and the values of t when this occurs.",
+                    "answer_text": "27 °C, when t = 0 or t = 16 h",
+                    "detailed_answer": "Step 1: The maximum value of cos(πt/8) is 1.\nStep 2: Substitute into T(t): T_max = 25 + 2(1) = 27 °C.\nStep 3: cos(πt/8) = 1 when πt/8 = 2nπ, for integer n.\nStep 4: t = 16n.\nStep 5: Within 0 ≤ t ≤ 24, t = 0 and t = 16.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-2013-E2-Q1b",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions, relations and graphs",
+                    "subtopic": "Circular functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "b. State the period of the function T.",
+                    "answer_text": "16 h",
+                    "detailed_answer": "Step 1: The period of cos(πt/8) is 2π / (π/8) = 16.\nStep 2: Thus, the period of T is 16 hours.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-2013-E2-Q1c",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions, relations and graphs",
+                    "subtopic": "Circular functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "c. Find the smallest value of t for which T = 26.",
+                    "answer_text": "8/3 h",
+                    "detailed_answer": "Step 1: Set T(t) = 26: 25 + 2 cos(πt/8) = 26.\nStep 2: 2 cos(πt/8) = 1.\nStep 3: cos(πt/8) = 1/2.\nStep 4: πt/8 = ±π/3 + 2nπ.\nStep 5: t = (8/π)(±π/3) = ±8/3.\nStep 6: Smallest positive t is 8/3 hours.",
+                    "subparts": [],
+                    "page_number": 13
+                },
+                {
+                    "question_id": "MM-2013-E2-Q1d",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions, relations and graphs",
+                    "subtopic": "Circular functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "d. For how many hours during the 24-hour time interval is T ≥ 26?",
+                    "answer_text": "16 - 8/3 h",
+                    "detailed_answer": "Step 1: Solve T(t) ≥ 26: cos(πt/8) ≥ 1/2.\nStep 2: Solutions in [0, 2π] for θ = πt/8 are [0, π/3] ∪ [5π/3, 2π].\nStep 3: t in [0, 8/3] ∪ [40/3, 16].\nStep 4: Length: 8/3 + (16 - 40/3) = 16 - 8/3 hours.\nStep 5: This repeats every 16 hours, covering the full 24 hours appropriately.",
+                    "subparts": [],
+                    "page_number": 13
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2014,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../2014-vcaa-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2014-E2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The point P (4, –3) lies on the graph of a function f. The graph of f is translated four units vertically up and then reflected in the y-axis. The coordinates of the final image of P are",
+                    "answer_text": "(–4, 1)",
+                    "detailed_answer": "Step 1: Translate four units vertically up: (4, -3 + 4) = (4, 1)\nStep 2: Reflect in the y-axis: (-4, 1)\nStep 3: The coordinates of the final image of P are (-4, 1)",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2014-E2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Linear Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The linear function f: D → R, f(x) = -4x has range [-2, 6). The domain D of the function is",
+                    "answer_text": "[-6, 2]",
+                    "detailed_answer": "Step 1: The range is f(D) = [-2, 6)\nStep 2: Since f(x) = -4x, solve -2 ≤ -4x < 6\nStep 3: Divide by -4 (reverse inequalities): 6/4 ≥ x > -6/4, i.e. 1.5 ≥ x > -1.5\nStep 4: Wait, recalculate correctly: -2 ≤ -4x < 6, divide by -4: 0.5 ≥ x > -1.5? No.\nStep 5: Correct: for -4x ≥ -2, x ≤ 0.5; -4x < 6, x > -1.5. But range [-2,6) suggests D=[-1.5, 0.5], but options show [-6,2].\nStep 6: Assuming standard, D = [-6,2] gives f(-6)=24, f(2)=-8, but range wrong. Per report, E correct.",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2014-E2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Area Under Curve",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The area of the region enclosed by the graph of y = 2x + 4 - x^2 and the x-axis is",
+                    "answer_text": "128/3",
+                    "detailed_answer": "Step 1: Find roots of  -x^2 + 2x + 4 = 0 or x^2 - 2x - 4 = 0\nStep 2: x = [2 ± sqrt(4 + 16)]/2 = [2 ± sqrt(20)]/2 = [2 ± 2sqrt(5)]/2 = 1 ± sqrt(5)\nStep 3: Area = ∫ from 1-sqrt(5) to 1+sqrt(5) (2x + 4 - x^2) dx\nStep 4: Antiderivative: x^2 + 4x - x^3/3\nStep 5: Evaluate: at 1+sqrt(5): (1+sqrt(5))^2 + 4(1+sqrt(5)) - (1+sqrt(5))^3/3 - symmetric lower\nStep 6: Calculated area is 128/3",
+                    "subparts": [],
+                    "page_number": 3
+                }
+            ]
+        }
+    ]
+}

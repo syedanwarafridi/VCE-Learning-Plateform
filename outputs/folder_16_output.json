@@ -1,0 +1,132 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2011,
+            "subject": "Mathematical Methods CAS",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "2011-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions, relations and graphs",
+                    "percentage": 30
+                },
+                {
+                    "aos": "Calculus",
+                    "percentage": 30
+                },
+                {
+                    "aos": "Probability and statistics",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MAV-2011-E2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions, relations and graphs",
+                    "subtopic": "Domain and range",
+                    "skill_type": "Conceptual understanding",
+                    "difficulty_level": "Easy",
+                    "question_text": "If f: [−1, 2) → R, f(x) = 1/(x − 2) and g: (−1, 2] → R, g(x) = 1/(2 − x) then the domain of fg is",
+                    "answer_text": "C",
+                    "detailed_answer": "The domain of f is [−1, 2) excluding x=2 where denominator is zero. The domain of g is (−1, 2] excluding x=−1 where denominator is zero. The domain of fg is the intersection (−1, 2) excluding x=−1 and x=2, but since −1 is not in f's domain and 2 is not in g's domain, the intersection is (−1, 2). The correct option is C: (−1, 2).",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MAV-2011-E2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions, relations and graphs",
+                    "subtopic": "Inverse functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f: R → R, f(x) = e^x + k where k is a real constant. If f and f^{-1} have two points of intersection then",
+                    "answer_text": "A",
+                    "detailed_answer": "The points of intersection of f and f^{-1} occur where f(x) = y and f(y) = x, or equivalently where f(x) = x. So solve e^x + k = x. For two solutions, the line y=x intersects y=e^x + k twice, which happens when k < -1. The correct option is A: k < -1.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MAV-2011-E2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions, relations and graphs",
+                    "subtopic": "Quadratic functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The minimum value of f where f(x) = (x^2 + 2x − a)/(x + a), where a is a real constant is",
+                    "answer_text": "B",
+                    "detailed_answer": "Rewrite f(x) = x^2 + 2x − a over x + a. Complete the square or use calculus. The minimum occurs at x = −a. Substitute to get f(−a) = a. But from solutions, minimum is 2a when a>0. Wait, solutions say minimum at x=0, f(0) = −a + 2a / a wait no. Actually from solutions: f(x) = x − a + 2a/(x+a), minimum when x=0, f(0)= −a + 2a = a, but solutions say 2a. Wait, correction from PDF: minimum value is 2a.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MAV-2011-E2-Q22",
+                    "question_number": 22,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "Probability and statistics",
+                    "subtopic": "Normal distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Scores on an examination are normally distributed with mean of 76 and standard deviation of 15. The top 15 percent of the students receive As and the bottom 10% receive Fs. The minimum score to receive A and the minimum score to pass (not receive F) are",
+                    "answer_text": "C",
+                    "detailed_answer": "For normal distribution N(76, 15^2), top 15% means above z such that P(Z > z) = 0.15, z ≈ 1.0364, score = 76 + 1.0364*15 ≈ 91.55, but solutions say 92. Bottom 10% below z where P(Z < z) = 0.10, z ≈ −1.2816, score = 76 − 1.2816*15 ≈ 56.24, solutions say 57. Thus C: score A: 92, score a pass: 57.",
+                    "subparts": [],
+                    "page_number": 9
+                }
+            ]
+        },
+        {
+            "year": 2011,
+            "subject": "Mathematical Methods CAS",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2 Extended",
+            "pdf_url": "2011-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions, relations and graphs",
+                    "percentage": 20
+                },
+                {
+                    "aos": "Calculus",
+                    "percentage": 40
+                },
+                {
+                    "aos": "Probability and statistics",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MAV-2011-E2-Q1a",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "Functions, relations and graphs",
+                    "subtopic": "Hybrid functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The graph of h where h: [0, 3] → R, h(x) = 1/(x^2 − x − 2) is shown below. i. Complete the following so that h(x) is written as a hybrid function.",
+                    "answer_text": "| 3 ≤ x < 2, x − 2; 2 ≤ x < 1, 0; 0 ≤ x ≤ 1, x^2 + 2 | h(x)",
+                    "detailed_answer": "The hybrid function is defined piecewise based on the graph: for 0 ≤ x ≤ 1, h(x) = x^2 + 2; for 1 < x < 2, h(x) = 0; for 2 ≤ x < 3, h(x) = x − 2.",
+                    "subparts": [
+                        "i",
+                        "ii"
+                    ],
+                    "page_number": 10
+                }
+            ]
+        }
+    ]
+}

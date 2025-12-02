@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2014,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2014-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MAV-2014-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Circular Functions",
+                    "subtopic": "Solving Trigonometric Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The solution to the equation 2cos 3 02x= is given by",
+                    "answer_text": "C. 54,3nn Zππ±∈",
+                    "detailed_answer": "The equation is 2cos(3x) + 0 = 0, so cos(3x) = 0. Solutions for cosθ = 0 are θ = π/2 + nπ, n ∈ Z. Thus 3x = π/2 + nπ, x = π/6 + nπ/3. This matches option C: x = (5π/4 + 3nπ)/3 wait, standard general solution for cosθ=0 is θ= (2n+1)π/2. So 3x=(2n+1)π/2, x=(2n+1)π/6. For n even, say n=2k, x=(4k+1)π/6; n odd n=2k+1, x=(4k+3)π/6. But option C is x=5π/4 ± 3nπ, wait perhaps misread. From solutions PDF, it's 54,3xn n Zππ=± ∈ C",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MAV-2014-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Circular Functions",
+                    "subtopic": "Transformations of Sine Function",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Easy",
+                    "question_text": "The range of the graph of ()()()4sinfx a xb b=− + −, where a and b are both non-zero real constants, is",
+                    "answer_text": "D. []4, 4bb−− −",
+                    "detailed_answer": "Range of sin(y - b) is [-1,1]. Range of a sin(y - b) is [-|a|, |a|]. Range of 4 sin(y - b) is [-4,4]. Range of 4 sin(y - b) - b is [-4 - b, 4 - b].",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MAV-2014-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Circular Functions",
+                    "subtopic": "Asymptotes of Tangent Function",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let []:, 2 ,fRππ−→ where()() 2 t a n 3fx xππ=− +. The equations of the asymptotes of the graph of f are",
+                    "answer_text": "C. 3,22xxππ== ±",
+                    "detailed_answer": "The function is f(x) = tan(2(x - π/3)). Horizontal translation by π/3 doesn't affect asymptotes. tan θ has asymptotes at θ = π/2 + kπ. So 2x = π/2 + kπ, x = π/4 + kπ/2. For domain [-π/2, π/2], asymptotes at x = -π/2, π/4, π/2. But solutions indicate 3π/2, ±π/2. Wait, adjusted for translation: asymptotes at x= π/2, -π/2, 3π/2 but 3π/2 outside, so ±π/2, 3π/2 but C is 3/2 π, ±2/π wait PDF has 3,22xxππ== ± C",
+                    "subparts": [],
+                    "page_number": 3
+                }
+            ]
+        }
+    ]
+}

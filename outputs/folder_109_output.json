@@ -1,0 +1,38 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Insight Publications Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2023,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "2023-insight-units-3-4-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2023-E2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let : , ( ) 2sin(2 ) 1f R Rfx x→= − . The period and range, respectively , of f are",
+                    "answer_text": "C",
+                    "detailed_answer": "The period of f(x) = 2sin(2x) - 1 is π, since the standard period of sin(bx) is 2π/b and here b=2, so 2π/2 = π.\nThe range of 2sin(2x) is [-2, 2], so the range of f(x) is [-3, 1].\nThus, period π and range [-3,1].",
+                    "subparts": [],
+                    "page_number": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2024,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 1",
+            "pdf_url": "2024-mav-units-3-4-exam-1.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2024-T1-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let 2log ( )exyx= , where 0x>. Find and simplify dy dx.",
+                    "answer_text": "41log ( ) 2e x xxdy x dx x×− × =",
+                    "detailed_answer": "2log ( )exyx= 2 41log ( ) 2e x xxdy x dx x×− × = 42 log ( )e xx x x−= 31 2log ( )ex x−=",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2024-T1-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Logarithmic Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Solve ( ) ( )2log 3 1 log 1 3 log (2)e eexx−− − = for x.",
+                    "answer_text": "12 x= −−",
+                    "detailed_answer": "( ) ( )2log 3 1 log 1 3 log (2)e eexx−− − = 231log log (2)13eex x−=− Equate 231213x x−=− 23 126xx−=− 23 6 30xx+ −= ( )23 210xx+ −= 22 10xx+ −= 2 44 2x−± += 2 22 2−±= 12= −± Reject 12 x= −+ as 13 0x−> , 1 3x< For real solution 12 x= −−",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2024-T1-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Algebra",
+                    "subtopic": "Simultaneous Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the following simultaneous equations 2x ky m−+= ( )212kxy+ += where k and m are real constants . Determine the values of k and m for which there are no solutions.",
+                    "answer_text": "{ } 1, \\ 2 k mR= −∈−",
+                    "detailed_answer": "22xmx ky m yk+−+ =⇒= ( ) ( )221 2 12kxy y kx++ = ⇒ = − ++ Equate gradients ( )2 21kk= −+ 1M 2210kk++= 320 kk++= Using factor theorem ( )( )21 20k kk+ −+ = 0∆< for 22 kk−+ giving no real solution 1 k=− 1M Substitute 1 k=− in equations 2 22xym xy−−= += Values of k and m for which there are no solutions 1, 2 k m=− ≠− Answer: { } 1, \\ 2 k mR= −∈−",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2024-T1-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Solve ( )22sin sin( ) 1 xx+= for [ ], xππ∈− .",
+                    "answer_text": "5, 66xππ= 2xπ=−",
+                    "detailed_answer": "( )22sin sin( ) 1 xx+= for [ ], xππ∈− ( )22sin sin( ) 1 0 xx+ −= ( )( ) ( )( ) 2sin 1 sin 1 0 xx− += ( ) ( )2sin 1, sin 1 xx= =− 1M ( )1sin 2x= for [ ], xππ∈− gives ( )sin 1x=− for [ ], xππ∈− gives 5, 66xππ= 1A 2xπ=− 1A",
+                    "subparts": [],
+                    "page_number": 5
+                },
+                {
+                    "question_id": "MM-2024-T1-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Composite Functions",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let { } ( )21: \\ 2 , ( ) 2f R Rfx x→= − and [) : 2, , ( ) 2 1g k R gx x−→ = + , where k is a real constant . a. If 1k=, explain why fg◦ does not exist? b. State the maximum possible value of k such that fg◦ exists. c. Define fg◦ for the value of k in part b .",
+                    "answer_text": "1 2k=",
+                    "detailed_answer": "a. For 1k=, [) : 2,1 , ( ) 2 1g Rgx x−→ = + For fg◦ to exist , test range ( ) g⊆ dom ()f fg◦ does not exist 1A b. For fg◦ to exist [) { } 3, 2 1 \\ 2kR− +∈ 12 122kk+=⇒= such that fg◦ exists 1A c. From part b . 1 2k= Dom 1: 2,2fg−◦ Rule ( ) ( )21() 12fgx x= −◦ 1A both rule and domain",
+                    "subparts": [],
+                    "page_number": 6
+                },
+                {
+                    "question_id": "MM-2024-T1-Q6",
+                    "question_number": 6,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Integration",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Part of the graph of 3 21yx=− is shown below. a. Evaluate 3 23 21dxx−∫, giving your answer in the form ( )loge ab where ,ab Q∈. b. Using two trapeziums of equal width, find the approximate area between the curve, the x-axis and the lines 2x= and 3x=. c. Will the area in part b. be an over or under estimate of the actual area? Explain.",
+                    "answer_text": "31 40≈",
+                    "detailed_answer": "a. 33 223 32 21 2 21dx dxxx=−−∫∫ ( )3 23log 2 12ex = − 1M ( ) ( )( )3log 5 log 32ee= − in the form ( )loge ab where ,ab Q∈ 3 23 35log21 2 3e dxx=− ∫ 1A b. Two trapeziums of width 1 2 Approximate a rea 1 2 5(2) 2 (3) 22fff =++   13 3 325 4 2(2) 1 2(3) 1212      = ++−−−   1M 1 3314 25= ++ 1 31 4 10= × Approximate a rea 31 40= 1A c. 31 3 5log40 2 3e> Area in part b. is an over estimate of the actual area because the upper straight side of each trapezia sits above the concave upward curve. 1A",
+                    "subparts": [],
+                    "page_number": 7
+                },
+                {
+                    "question_id": "MM-2024-T1-Q7",
+                    "question_number": 7,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Newton's Method",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the x-intercept of the function 21() 2xfx e+= − . a. Find 1x using Newton’s method with an initial estimate of 00x=. b. Sketch the tangent line to the curve at 0x= and label 1x. c. What is the distance between 1x and the exact value of the x-intercept? Express your answer in the form ( )loge ab+ where ,ab R∈.",
+                    "answer_text": "11log 2ee= +",
+                    "detailed_answer": "a. 10(0) (0)fxxf= −′ 201 1 201202exe×+ ×+−= − 122 11 22 2eexe ee−−= −== − 1A or equivalent form b. Tangent line with 1x labelled. 1A c. 2120xe+−= 212xe+= 2 1 log (2)e x+= log (2) 1 2ex−= 1A Distance log (2) 1 2 22e e e− −= − 2 log (2) 2ee e−= log (2)1 2e e= − 11log 2ee= + 1H",
+                    "subparts": [],
+                    "page_number": 8
+                },
+                {
+                    "question_id": "MM-2024-T1-Q8",
+                    "question_number": 8,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Graph Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "Consider the function f with rule () 1 2 3fx x= +− over its maximal domain. a. Give the coordi nates of the point where () 1fx′=. b. Sketch the graphs of () y fx= and 1() yf x−= on the set of axes below. Label the endpoints and point of intersection with their coordinates. Now c onsider the family of curves , over their maximal domains, with rule () 1 2gx x a= +− , where a is a real constant. c. Find the values of a for which the graphs of g and 1g− have two points of intersection. d. Find the area bound by the graphs of g and 1g− when 2a=.",
+                    "answer_text": "23a≤< 4 3=",
+                    "detailed_answer": "a. 1() 1 23fx x′= = − 11 23x= − 1 23 x= − 2 31x−= 2x= ( )2,2 coordinates 1A b. Shape () y fx= 1A Shape 1() yf x−= 1A Coordinates 1A c. ( ) 12 122agx x a x= + −= + −  As the graph of f touches the line yx= then 3a<. The graph s of g will intersect the line yx= twice until the coordinat es of the endpoint are (1,1). If the graph of f is translated 1 2 a unit left it will intersect the line yx= at (1,1). ( )31( ) 12 12 1 12222gx x x x= + −+ = + −= + − Hence 23a≤< . 1A OR Solve 12 xa x+ −= 21xa x−=− ( )221xa x−= − 22 21xax x−= − + 241 0xx a− ++= ( ) 16 4 1 0 a ∆= − + > 12 4 0 a−> 3a< Substitute 1x= into 241 0xx a− ++= to find the minimum value of a. 2a= Hence 23a≤< . 1A OR Substitue (1,1) into () 1 2gx x a= +− 12 1 a+ −= 20a−= 2a= Hence 23a≤< . 1A d. If the graph of f is translated 1 2 a unit left then the points of intersection are at 1x= and 3x=. OR Solve 122 xx+ −= ( )222 1xx−= − 24 30xx− += ( )( )1 30xx− −= 1x= or 3x= ( )3 121 2 2 x x dx+ −−∫ 1M ( )33 22 1112 2232xx x=+ −− 1M 89 123 132 2  = +− −−     8223= −+ 4 3= 1A or equivalent form",
+                    "subparts": [],
+                    "page_number": 9
+                },
+                {
+                    "question_id": "MM-2024-T1-Q9",
+                    "question_number": 9,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "AOS 3: Probability and Statistics",
+                    "subtopic": "Probability Distributions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "The probability Lisa hits a bullseye in a game of darts at the end of a workday is 0.02. The probability she hits a bullseye on a non workday is 0.3. Lisa is a school teacher and works everyday from Monday to Friday but not on the weekends. Each throw is independent of each other. a. What is the probability Lisa hits three bullseyes in a row on a Wednesday night? b. What is the probability she hits exactly t hree bullse yes out of four throws on a Saturday? c. Lisa has five throws on a Friday night. Given that she throws three bullseyes on her first three throws , what is the probability she throws exactly four bullseyes? Let tn represent the number of throws on a particular Thursday evening and sn represent the number of throws on a Saturday evening. d. If the mean number of bullseyes Lisa scored on the Thursday evening was the same as the mean number she scored on a Saturday evening, find tn in terms of sn, giving a general solution. Assume she had at least one throw on each evening. The time Lisa spends practi sing her dart throwing each day is a random variable, T hours, with probability density function, d given by ( )21 12 () 3 2 3 0 elsewherett dt at b t− ≤≤= − + <≤  where a and b are real constants. e. Find a and b if the graph of d is continuous for 3t−∞< ≤ .",
+                    "answer_text": "3 4a=, 1 4b=",
+                    "detailed_answer": "a. 30.02 0.000 008 = or 1 125 000 1A b. ( )~ Bi 4,0.3X 1M ( )3 4Pr 4 0.3 0.73X= = × 4 0.027 0.7= ×× 0.0756= or 189 2500 1A c. 2 0.02 0.98×× 0.0392= or 49 1250 1A d. 0.02 0.3tsnn= 15tsnn= , snZ+∈ 1A e. ( )21 12 () 3 2 3 0 elsewherett dt at b t− ≤≤= − + <≤   ( )231 at b t− +=− when 2t= 1 ab+= …(1) 1A ( ) ( )()23 2 121 31t dt a t b dt− + −+ =∫∫ ( )2 3 23 2 13123tat t bt −+ −+ =   ( )3 3 213123at bt+ −+ = ( )3 3 21332at bt−+ = 1 32ab+= …(2) 1M attempt to set up the second equation 1 ab+= …(1) Subtract (2) from (1) 21 32a= 3 4a=, 1 4b= 1A",
+                    "subparts": [],
+                    "page_number": 10
+                }
+            ]
+        }
+    ]
+}

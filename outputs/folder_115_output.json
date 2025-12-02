@@ -1,0 +1,38 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2023,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2 (NHT)",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../2023-vcaa-nht-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2023-E2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Quadratic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The period of the function y = 3 sin(2x) + 1 is",
+                    "answer_text": "π",
+                    "detailed_answer": "The general form of the sine function is y = A sin(Bx + C) + D. The period is 2π / |B|. Here, B = 2, so period = 2π / 2 = π.",
+                    "subparts": [],
+                    "page_number": 3
+                }
+            ]
+        }
+    ]
+}

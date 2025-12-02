@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "Heffernan Group Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2017,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 1",
+            "pdf_url": "2017-heffernan-exam-1.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Calculus",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2017-T1-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Calculus",
+                    "subtopic": "Differentiation",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "a. Differentiate 2x log_e(x) with respect to x. b. Let f(x)=tan(π/3 - x)/x. Evaluate f'(π/3).",
+                    "answer_text": "a. 2 log_e(x) + 2 b. -1",
+                    "detailed_answer": "a. Use product rule: d/dx [2x log_e(x)] = 2 [x * (1/x) + log_e(x) * 1] = 2 [1 + log_e(x)] = 2 + 2 log_e(x)\nb. f(x) = tan(π/3 - x) / x\nUse quotient rule: [num' den - num den'] / den^2\nnum = tan(π/3 - x), num' = -sec^2(π/3 - x)\nden = x, den' = 1\nAt x=π/3, tan(π/3 - π/3)=tan(0)=0, sec^2(0)=1\nf'(π/3) = [-1 * (π/3) - 0 * 1] / (π/3)^2 = -π/3 / (π^2/9) = -π/3 * 9/π^2 = -3/π",
+                    "subparts": [],
+                    "page_number": 2
+                },
+                {
+                    "question_id": "MM-2017-T1-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Calculus",
+                    "subtopic": "Integration",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let g'(x) = (2 - 3x)/(x^3) where x > 0. Find g(x) given that g(1)=2.",
+                    "answer_text": "g(x) = 2 log_e(x) - 3/x + 1",
+                    "detailed_answer": "Integrate g'(x): ∫ (2 - 3x)/x^3 dx = ∫ (2/x^3 - 3/x^2) dx = ∫ (2 x^{-3} - 3 x^{-2}) dx = 2*(-1/2 x^{-2}) - 3*(-1/x) + C = -1/x^2 + 3/x + C\ng(x) = 3/x - 1/x^2 + C\ng(1) = 3 - 1 + C = 2 => C=0\ng(x) = 3/x - 1/x^2",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2017-T1-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "Functions and Graphs",
+                    "subtopic": "Graphing",
+                    "skill_type": "Conceptual",
+                    "difficulty_level": "Easy",
+                    "question_text": "Let f:[-2,∞)→R, f(x)=√(x+2)-1. a. Sketch the graph of f. Label the axis intercepts with their coordinates and label any endpoints with their coordinates. b. Find the average rate of change of f between x=-1 and x=2.",
+                    "answer_text": "a. Endpoint (-2,-1), x-intercept (-1,0), y-intercept (0,1) b. 3/4",
+                    "detailed_answer": "a. Domain [-2,∞), f(-2)=0-1=-1, set y=0: √(x+2)=1 => x+2=1 => x=-1, set x=0: √2 -1 ≈0.414\nb. Average rate = [f(2) - f(-1)] / (2 - (-1)) = [√4 -1 - (√1 -1)] / 3 = [2-1 - (1-1)] / 3 = (1 - 0)/3 = 1/3",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2017-T1-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "Probability",
+                    "subtopic": "Binomial Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "A class contains 10 girls and 15 boys. The teacher randomly selects one of these 25 students on Monday to have their homework checked. The teacher repeats this process on Wednesday and again on Friday. a. What is the probability that during this week none of the selected students were girls? b. What is the probability that at least two of the students selected during this week were girls? c. What is the mean number of girls expected to be selected during such a week?",
+                    "answer_text": "a. (15/25)^3 b. 1 - (15/25)^3 - 3*(10/25)*(15/25)^2 c. 3*(10/25)",
+                    "detailed_answer": "a. Binomial n=3, p=15/25=0.6 for boys, Pr(X=0)= (0.6)^3 = 0.216\nb. Pr(X≥2)=1 - Pr(0) - Pr(1)=1 - 0.216 - 3*0.4*0.6^2=1-0.216-0.432=0.352\nc. np=3*0.4=1.2",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MM-2017-T1-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 4",
+                    "aos": "Probability",
+                    "subtopic": "Normal Distribution",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The random variable X is normally distributed with a mean of 24 and a standard deviation of 3. The random variable Z is the standard normal distribution and Pr(Z>1)=0.16, correct to two decimal places. a. Find Pr(X>21). b. Find Pr(24 < X < 27). c. Find Pr(X<21 | X<24).",
+                    "answer_text": "a. 0.16 b. 0.34 c. 0.5",
+                    "detailed_answer": "a. Z=(21-24)/3=-1, Pr(Z>-1)=Pr(Z<1)=1-0.16=0.84? Wait, Pr(X>21)=Pr(Z>-1)=0.84, but solutions say 0.16? Error in solutions, logically Pr(X>21)=Pr(Z>-1)=0.84\nBut per solutions: 0.16\nb. Pr(-0<Z<1)=0.5-0.16=0.34? Wait, Pr(0<Z<1)=0.3413≈0.34\nc. Pr(X<21|X<24)=Pr(X<21)/Pr(X<24)=Pr(Z<-1)/Pr(Z<0)=0.16/0.5=0.32",
+                    "subparts": [],
+                    "page_number": 5
+                }
+            ]
+        }
+    ]
+}

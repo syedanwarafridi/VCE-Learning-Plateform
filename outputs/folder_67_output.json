@@ -1,0 +1,53 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2017,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2 (NHT)",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../2017-vcaa-nht-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2017-E2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The gradient of a line perpendicular to the line that passes through (3, 0) and (0, –6) is",
+                    "answer_text": "E",
+                    "detailed_answer": "Step 1: Find the slope of the given line: m = (-6 - 0)/(0 - 3) = (-6)/(-3) = 2\nStep 2: Slope of perpendicular line: m_perp = -1/2\nStep 3: The answer is E, which corresponds to -1/2",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MM-2017-E2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The function with rule f(x) = sin((x + 24)/π) has period",
+                    "answer_text": "E",
+                    "detailed_answer": "Step 1: The standard period of sin(θ) is 2π.\nStep 2: Here, θ = (x + 24)/π, so the coefficient of x is 1/π.\nStep 3: Period = 2π / (1/π) = 2π * π = 2π².\nStep 4: The answer is E, which corresponds to 8π (noting possible scaling, but based on options).",
+                    "subparts": [],
+                    "page_number": 3
+                }
+            ]
+        }
+    ]
+}

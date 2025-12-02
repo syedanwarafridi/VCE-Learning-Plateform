@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2015,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "https://www.vcaa.vic.edu.au/Documents/exams/mathematics/2015mm2-w.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-2015-E2-Q1",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Calculus",
+                    "subtopic": "Derivatives",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Let f : R → R, f(x) = (x - 1/5)^{2.5} - (2/5)^{2.5}. The point P(1/4, 5) is on the graph of f, as shown below. The tangent at P cuts the y-axis at S and the x-axis at Q. a. Write down the derivative f'(x) of f(x).",
+                    "answer_text": "f'(x) = 2.5(x - 1/5)^{1.5} - 2.5(2/5)^{1.5}",
+                    "detailed_answer": "The function is f(x) = (x - 1/5)^{2.5} - (2/5)^{2.5}.\nDifferentiate using the chain rule:\nf'(x) = 2.5(x - 1/5)^{1.5} * 1 - 0 = 2.5(x - 1/5)^{1.5} - 2.5(2/5)^{1.5}",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-2015-E2-Q1bi",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Calculus",
+                    "subtopic": "Tangents",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "b. i. Find the equation of the tangent to the graph of f at the point P(1/4, 5).",
+                    "answer_text": "y = -13/5 x + 55/5",
+                    "detailed_answer": "At x = 1/4, f'(1/4) = -13/5.\nPoint-slope form: y - 5 = (-13/5)(x - 1/4)\ny = -13/5 x + 13/20 + 5 = -13/5 x + 55/5",
+                    "subparts": [],
+                    "page_number": 13
+                },
+                {
+                    "question_id": "MM-2015-E2-Q1bii",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 2: Calculus",
+                    "subtopic": "Intercepts",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "ii. Find the coordinates of points Q and S.",
+                    "answer_text": "Q(13/5, 0), S(0, 11/5)",
+                    "detailed_answer": "x-intercept Q: set y=0, 0 = -13/5 x + 11/5, x=13/5.\ny-intercept S: set x=0, y=11/5.",
+                    "subparts": [],
+                    "page_number": 13
+                }
+            ]
+        }
+    ]
+}

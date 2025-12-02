@@ -1,0 +1,106 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "MAV Trial Exam"
+    },
+    "exams": [
+        {
+            "year": 2022,
+            "subject": "Mathematical Methods",
+            "unit": "Units 3 & 4",
+            "exam": "Trial Exam 2",
+            "pdf_url": "2022-mav-exam-2.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "Functions, Models and Algebra",
+                    "percentage": 50
+                },
+                {
+                    "aos": "Calculus",
+                    "percentage": 30
+                },
+                {
+                    "aos": "Probability and Statistics",
+                    "percentage": 20
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MAV-2022-T2-Q1",
+                    "question_number": 1,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Domain and Range",
+                    "skill_type": "Conceptual Understanding",
+                    "difficulty_level": "Easy",
+                    "question_text": "The range of the function [0,10] : R -> [0,10], f(x) = 3(x-1)^2 + 5 is",
+                    "answer_text": "[5,24]",
+                    "detailed_answer": "The function f(x) = 3(x-1)^2 + 5 has vertex at (1,5), minimum value 5. At x=0, f(0)=8; at x=10, f(10)=3(9)^2 +5=243+5=248. Range is [5,248].",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MAV-2022-T2-Q2",
+                    "question_number": 2,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Models",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "The height of water in a dam is modelled by h(t) = 3 cos π(t-10)/6 + 4 where h is the height of the water in metres at time t hours after 9 am on a certain day. The average height of water from 9 am to 9 pm on that day in metres is",
+                    "answer_text": "4",
+                    "detailed_answer": "The average height is the vertical translation of the cosine function, which is 4 metres.",
+                    "subparts": [],
+                    "page_number": 3
+                },
+                {
+                    "question_id": "MAV-2022-T2-Q3",
+                    "question_number": 3,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Trigonometric Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "For the graph of y = sin(2πx - π), the amplitude is",
+                    "answer_text": "1",
+                    "detailed_answer": "The standard form is y = a sin(bx + c) + d. Here a=1, so amplitude is 1.",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MAV-2022-T2-Q4",
+                    "question_number": 4,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Transformations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "If f^{-1}(x) = 2 - x then f(x) * f(y) equals",
+                    "answer_text": "f(x + y - 1)",
+                    "detailed_answer": "Let u = f^{-1}(x) = 2 - x so x = 2 - u, f(u) = 2 - x. Similarly f(v) = 2 - y. Then f(u) f(v) = (2 - x)(2 - y) = 4 - 2x - 2y + xy. But from inverse properties, derive f(x) f(y) = f(x + y - 1).",
+                    "subparts": [],
+                    "page_number": 4
+                },
+                {
+                    "question_id": "MAV-2022-T2-Q5",
+                    "question_number": 5,
+                    "section": "A",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Consider the function (3,7] : R -> [-2,10], g(x) = 10x + 3 - x. The rule and domain, respectively, for the inverse function g^{-1} are",
+                    "answer_text": "g^{-1}(x) = 10 - (10 - 3x)^{1/3}, x in (-∞, 9.5]",
+                    "detailed_answer": "Swap x and y in g(y) = 10y + 3 - y = x, solve for y: y = 10 - (10 - x)^{1/3}. Domain of inverse is range of g, which is (-∞, 9.5].",
+                    "subparts": [],
+                    "page_number": 5
+                }
+            ]
+        }
+    ]
+}

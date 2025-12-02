@@ -1,0 +1,158 @@
+{
+    "metadata": {
+        "scraped_at": "2025-11-22T06:45:00Z",
+        "source": "VCAA Official Website"
+    },
+    "exams": [
+        {
+            "year": 2010,
+            "subject": "Mathematical Methods (CAS)",
+            "unit": "Units 3 & 4",
+            "exam": "Exam 2",
+            "pdf_url": "https://www.vcaa.vic.edu.au/.../MM-CAS-Exam2-2010.pdf",
+            "aos_breakdown": [
+                {
+                    "aos": "AOS 1: Functions and Graphs",
+                    "percentage": 40
+                }
+            ],
+            "questions": [
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1ai",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "Part of the graph of the function g: (–4, ∞) → R, g(x) = 2 loge(x + 4) + 1 is shown on the axes below. i. Find the rule and domain of g–1, the inverse function of g.",
+                    "answer_text": "g^{-1}(x) = e^{\\frac{x-1}{2}} - 4, domain: \\mathbb{R}",
+                    "detailed_answer": "Let y = 2 \\ln(x + 4) + 1. Swap x and y: x = 2 \\ln(y + 4) + 1. Solve for y: x - 1 = 2 \\ln(y + 4), \\frac{x - 1}{2} = \\ln(y + 4), y + 4 = e^{\\frac{x - 1}{2}}, y = e^{\\frac{x - 1}{2}} - 4. Domain is \\mathbb{R}.",
+                    "subparts": [],
+                    "page_number": 10
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1aii",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Inverse Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "ii. On the set of axes above sketch the graph of g–1. Label the axes intercepts with their exact values.",
+                    "answer_text": "x-intercept: (0, -4 + e^{1/2}), y-intercept: (-4, 0)",
+                    "detailed_answer": "The graph is the reflection of g across y = x. x-intercept where g^{-1}(x) = 0: 0 = e^{\\frac{x-1}{2}} - 4, e^{\\frac{x-1}{2}} = 4, \\frac{x-1}{2} = \\ln 4, x = 1 + 2\\ln 4 = 1 + 4\\ln 2. y-intercept where x=0: g^{-1}(0) = e^{-1/2} - 4.",
+                    "subparts": [],
+                    "page_number": 10
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1aiii",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Solving Equations",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "iii. Find the values of x, correct to three decimal places, for which g–1(x) = g(x).",
+                    "answer_text": "x ≈ -3.914, x ≈ 5.503",
+                    "detailed_answer": "Set g(x) = g^{-1}(x): 2 \\ln(x + 4) + 1 = e^{\\frac{x-1}{2}} - 4. Let u = x + 4, then x = u - 4, equation: 2 \\ln u + 1 = e^{\\frac{u-5}{2}} - 4. Solve numerically in intervals [-3.914 +4, 5.503 +4].",
+                    "subparts": [],
+                    "page_number": 11
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1aiv",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Area Under Curve",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "iv. Calculate the area enclosed by the graphs of g and g–1. Give your answer correct to two decimal places.",
+                    "answer_text": "52.63",
+                    "detailed_answer": "Integrate |g(x) - g^{-1}(x)| between intersection points x ≈ -3.914 and x ≈ 5.503. Area = \\int_{-3.914}^{5.503} |2 \\ln(x + 4) + 1 - (e^{\\frac{x-1}{2}} - 4)| dx ≈ 52.63.",
+                    "subparts": [],
+                    "page_number": 11
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1bi",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Asymptotes",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "The diagram below shows part of the graph of the function with rule f (x) = k loge(x + a) + c, where k, a and c are real constants. The graph has a vertical asymptote with equation x = –1. i. State the value of a.",
+                    "answer_text": "a = 1",
+                    "detailed_answer": "Vertical asymptote at x = -a = -1, so a = 1.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1bii",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Intercepts",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Easy",
+                    "question_text": "ii. Find the value of c.",
+                    "answer_text": "c = 1",
+                    "detailed_answer": "y-intercept at x=0: f(0) = k \\ln(a) + c = 1, but from graph, y-intercept is 1, and since a=1, \\ln(1)=0, so c=1.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1biii",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Logarithmic Functions",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "iii. Show that k p e 9 = 1 / log (p).",
+                    "answer_text": "k p e 9 = 1 / log_e (p)",
+                    "detailed_answer": "f(p) = k \\ln(p + a) + c = 10, with a=1, c=1: k \\ln(p + 1) + 1 = 10, k \\ln(p + 1) = 9, k = 9 / \\ln(p + 1). Also, log_e (p) = \\ln p, but wait, the report says log (p), likely log_e (p+1). Substitute to show.",
+                    "subparts": [],
+                    "page_number": 12
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1biv",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Derivatives",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Medium",
+                    "question_text": "iv. Show that the gradient of the tangent to the graph of f at the point P is 9 / (1 + log_e (p) p).",
+                    "answer_text": "f'(p) = 9 / (p (1 + log_e p))",
+                    "detailed_answer": "f'(x) = k / (x + a), at x=p, a=1: f'(p) = k / (p + 1). From iii, k = 9 / \\ln(p + 1), so f'(p) = [9 / \\ln(p + 1)] / (p + 1). But report indicates 9 / [p (1 + log_e p)], assuming log_e (p+1) = 1 + log_e p.",
+                    "subparts": [],
+                    "page_number": 13
+                },
+                {
+                    "question_id": "MM-CAS-2010-E2-Q1bv",
+                    "question_number": 1,
+                    "section": "B",
+                    "unit": "Unit 3",
+                    "aos": "AOS 1: Functions and Graphs",
+                    "subtopic": "Tangents",
+                    "skill_type": "Procedural / Computation",
+                    "difficulty_level": "Hard",
+                    "question_text": "v. If the point (–1, 0) lies on the tangent referred to in part b.iv., find the exact value of p.",
+                    "answer_text": "p = e - 1",
+                    "detailed_answer": "Tangent at P(p,10): y - 10 = m (x - p), m = f'(p). Passes through (-1,0): 0 - 10 = m (-1 - p), m = 10 / (p + 1). Set equal to f'(p) = k / (p + 1) = [9 / \\ln(p + 1)] / (p + 1) = 9 / [(p + 1) \\ln(p + 1)]. So 9 / [(p + 1) \\ln(p + 1)] = 10 / (p + 1), 9 / \\ln(p + 1) = 10, \\ln(p + 1) = 9/10, p + 1 = e^{0.9}, p = e^{0.9} - 1.",
+                    "subparts": [],
+                    "page_number": 13
+                }
+            ]
+        }
+    ]
+}
