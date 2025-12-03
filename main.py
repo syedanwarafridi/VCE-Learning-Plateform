@@ -129,7 +129,7 @@ def process_single_folder(folder_name: str, client, output_dir: str = "outputs")
     return True
 
 def main():
-    API_KEY = ""#"AIzaSyDV9QwH3UCh0jjwNVwhOiFaCzll7gyel6o" #os.getenv("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
+    API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
     client = load_grok(API_KEY)
 
     paper_folders = get_all_paper_folders()
