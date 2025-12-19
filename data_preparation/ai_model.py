@@ -177,7 +177,7 @@ logger = logging.getLogger(__name__)
 
 def load_grok(api_key: str):
     return OpenAI(api_key=api_key,
-                  base_url="https://api.x.ai/v1")  # xAI / Grok endpoint
+                  base_url="https://api.x.ai/v1")
 
 def generate_text(client, prompt: str, model: str = "grok-4-fast-non-reasoning",
                   timeout: int = 620):

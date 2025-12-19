@@ -8,11 +8,11 @@ DB_CONFIG = {
     "host": "localhost",
     "database": "vce_learning_platform",
     "user": "postgres",
-    "password": "postgres",
+    "password": "postgres1234",
     "port": 5432
 }
 
-os.environ["NOMIC_API_KEY"] = "YOUR_API_KEY_HERE"
+# os.environ["NOMIC_API_KEY"] = "YOUR_API_KEY_HERE"
 
 def get_embedding(text: str):
     resp = embed.text(
@@ -92,6 +92,6 @@ def retrieve_similar(query: str, top_k: int = 3):
 
 if __name__ == "__main__":
     query = "Let f : R → R, f (x) = x(x − 2)2"
-    matches = retrieve_similar(query, top_k=3)
+    matches = retrieve_similar(query, top_k=2)
     import json
     print(json.dumps(matches, indent=2, ensure_ascii=False))
